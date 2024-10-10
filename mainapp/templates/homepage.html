@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Company Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .top-navbar {
+            background-color: white; /* White background for the top navbar */
+            border-bottom: 1px solid #ddd; /* Light gray bottom border */
+            padding: 10px 20px; /* Padding for top navbar */
+            width: 100%; /* Full width */
+            position: fixed; /* Fixed at the top */
+            z-index: 1000; /* Make sure it stays above other content */
+            display: flex;
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space between logo and buttons */
+        }
+
+        .top-navbar .language-btn {
+            border: 1px solid #ddd; /* Light gray border */
+            background-color: white; /* White background */
+            color: black; /* Black text */
+            transition: all 0.3s ease; /* Smooth transition for hover effects */
+            margin-left: 10px; /* Space between buttons */
+        }
+
+        .top-navbar .language-btn:hover {
+            background-color: white; /* White background on hover */
+            color: black; /* Black text on hover */
+            border: 1px solid lightcoral; /* Light red border on hover */
+        }
+
+        .top-navbar .language-btn.active {
+            background-color: lightcoral; /* Light red background when active */
+            color: white; /* White text when active */
+            border: 1px solid lightcoral; /* Light red border when active */
+        }
+
+        .sidebar {
+            width: 250px; /* Adjust the width of the sidebar */
+            background-color: #f8f8f8; /* Background color of the sidebar */
+            position: sticky; /* Make the sidebar sticky */
+            top: 60px; /* Position it below the top navbar */
+            height: calc(100vh - 60px); /* Full height minus the height of the top navbar */
+
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px 15px; /* Padding for links */
+            color: #333; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .sidebar a:hover {
+            background-color: #ddd; /* Hover effect */
+        }
+
+        .content {
+            flex-grow: 1; /* Take up the remaining space */
+        }
+
+        .company-logo {
+            max-width: 200px; /* Adjust logo size as needed */
+        }
+
+        /* Section styles */
+        section {
+            height: 80vh; /* Set height to 80vh for each section */
+            padding: 70px 20px; /* Padding for the content */
+            margin: 0; /* Remove margin between sections */
+        }
+
+        .hero {
+            background: #e0e0e0; /* Light gray background for hero section */
+            text-align: center;
+        }
+
+        .about {
+            background: #d0e0f0; /* Light blue background for About Us */
+        }
+
+        .services {
+            background: #f0d0d0; /* Light red background for Services */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            const elements = document.querySelectorAll('[data-lang]');
+            const languageButtons = document.querySelectorAll('.language-btn');
+
+            elements.forEach(element => {
+                const key = element.getAttribute('data-lang');
+                element.innerText = translations[lang][key] || element.innerText;
+            });
+
+            // Update button styles
+            languageButtons.forEach(button => {
+                if (button.getAttribute('data-lang') === lang) {
+                    button.classList.add('active');
+                } else {
+                    button.classList.remove('active');
+                }
+            });
+
+            // Update navbar items
+            const navbarItems = {
+                business: translations[lang]['businessNav'],
+                retail: translations[lang]['retailNav'],
+                about: translations[lang]['aboutNav']
+            };
+
+            document.getElementById('businessNav').innerText = navbarItems.business;
+            document.getElementById('retailNav').innerText = navbarItems.retail;
+            document.getElementById('aboutNav').innerText = navbarItems.about;
+        }
+
+        const translations = {
+            en: {
+                welcome: "Welcome to Our Company",
+                description: "Your trusted partner in innovation and technology.",
+                aboutTitle: "About Us",
+                aboutDescription: "We are dedicated to providing cutting-edge solutions and services to help businesses succeed.",
+                servicesTitle: "Our Services",
+                service1: "Delivering top-quality service in...",
+                service2: "Advanced solutions in...",
+                service3: "Innovative technology for...",
+                retailTitle: "Retail Services",
+                retailDescription: "Information about retail and services offered...",
+                businessNav: "Services",
+                retailNav: "Retail",
+                aboutNav: "About Us"
+            },
+            kh: {
+                welcome: "សូមស្វាគមន៍មកកាន់ក្រុមហ៊ុនរបស់យើង",
+                description: "ដៃគូដែលអ្នកអាចទុកចិត្តក្នុងវិស័យភាពច្នៃប្រឌិតនិងបច្ចេកវិទ្យា។",
+                aboutTitle: "អំពីយើង",
+                aboutDescription: "យើងប្តេជ្ញាចិត្តក្នុងការផ្តល់នូវដំណោះស្រាយនិងសេវាកម្មដែលមានគុណភាពខ្ពស់ដើម្បីជួយឱ្យអាជីវកម្មរីកចម្រើន។",
+                servicesTitle: "សេវាកម្មរបស់យើង",
+                service1: "ផ្តល់សេវាកម្មមានគុណភាពខ្ពស់ក្នុង...",
+                service2: "ដំណោះស្រាយលើកទឹកចិត្តក្នុង...",
+                service3: "បច្ចេកវិទ្យាច្នៃប្រឌិតសម្រាប់...",
+                retailTitle: "សេវាកម្មលក់រាយ",
+                retailDescription: "ព័ត៌មានអំពីសេវាកម្មលក់រាយដែលផ្តល់អោយ...",
+                businessNav: "សេវាកម្ម",
+                retailNav: "លក់រាយ",
+                aboutNav: "អំពីយើង"
+            }
+        };
+
+        // Set default language to English on load
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('en');
+        });
+    </script>
+</head>
+<body>
+    <div class="top-navbar d-flex justify-content-between align-items-center p-3">
+        <div class="logo-container d-flex align-items-center">
+            <a href="#home"><img src="{% static 'logo.jpg' %}" alt="Company Logo" class="company-logo"></a>
+        </div>
+        <div class="btn-lang">
+            <button class="language-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+            <button class="language-btn" data-lang="kh" onclick="switchLanguage('kh')">KH</button>
+        </div>
+    </div>
+    
+
+    <div class="sidebar">
+        <a href="#about" id="aboutNav">About Us</a>
+        <a href="#business" id="businessNav">Services</a>
+        <a href="#retail" id="retailNav">Retail</a>
+    </div>
+
+    <div class="content">
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 data-lang="welcome">Welcome to Our Company</h1>
+                <p data-lang="description">Your trusted partner in innovation and technology.</p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 data-lang="aboutTitle">About Us</h2>
+            <p data-lang="aboutDescription">We are dedicated to providing cutting-edge solutions and services to help businesses succeed.</p>
+        </section>
+
+        <section class="services" id="business">
+            <h2 data-lang="servicesTitle">Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3 data-lang="service1">Service 1</h3>
+                    <p data-lang="service1">Delivering top-quality service in...</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-lang="service2">Service 2</h3>
+                    <p data-lang="service2">Advanced solutions in...</p>
+                </div>
+                <div class="service-card">
+                    <h3 data-lang="service3">Service 3</h3>
+                    <p data-lang="service3">Innovative technology for...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="retail">
+            <h2 data-lang="retailTitle">Retail Services</h2>
+            <p data-lang="retailDescription">Information about retail services offered...</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
