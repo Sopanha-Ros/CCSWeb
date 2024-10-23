@@ -1,0 +1,242 @@
+const translations = {
+  "en": {
+    "home": "Home",
+    "about": "About",
+    "nav_services": "Services",
+    "retail": "Retail",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "language_en": "EN",
+    "language_kh": "KH",
+
+    "hero_title": "Innovative IT & Robotics Solutions",
+    "hero_description": "Custom software, embedded systems, and cutting-edge robotics to elevate your business.",
+
+    "get_started": "Get Started",
+
+    "software": "Comprehensive Embedded Software Solutions, AI Development, and Software Outsourcing",
+    "hardware": "Expert Schematic Design and High-Quality PCB Printing Services",
+    "retails": "Top STEM Coding Robots and Embedded Boards for Educational Excellence",
+
+    "about_us": "At Chipcosoft, we specialize in empowering innovation and growth with custom software solutions tailored to the unique needs of businesses across Southeast Asia.",
+
+    "strategic_partnerships": "We believe collaboration is essential for success. By partnering with esteemed Korean companies, we facilitate seamless communication and support. Our talented Cambodian team combines local expertise with international standards to deliver exceptional software solutions throughout Southeast Asia.",
+
+    "our_vision": "We aspire to be a leading global software development firm in Southeast Asia, known for groundbreaking solutions that redefine possibilities. Our commitment to innovation enables businesses to gain a competitive edge in the market.",
+
+    "our_mission": "Our mission is to drive innovation across Southeast Asia by delivering tailored software solutions, empowering local talent, and fostering strategic partnerships. Together, we enable businesses to thrive in a rapidly evolving tech landscape.",
+
+    "services": "Comprehensive Software and Hardware Solutions: Empowering Innovation through Embedded Systems, AI, and Cutting-Edge Electronics",
+
+    "embedded_software_solutions": "Custom Microcontroller Firmware and System Integration",
+
+    "learn_more": "Learn More",
+
+    "ai_software_development": "Innovative Solutions for Enhanced Automation",
+
+    "software_outsourcing_services": "Expert Development for Your Business Needs",
+
+    "automated_crypto_trading_software": "Maximize Your Investments with Smart Solutions",
+
+    "professional_schematic_design": "Accurate Hardware Planning for Seamless Integration",
+
+    "high_quality_pcb_printing": "Reliable Manufacturing for Electronic Designs",
+
+    "retail_services": "Comprehensive Software and Hardware Solutions: Empowering Innovation through Embedded Systems, AI, and Cutting-Edge Electronics",
+
+    "stem_coding_robots": "Empowering Young Innovators with STEM Education",
+
+    "ignite_curiosity": "Ignite curiosity and creativity in future technologists.",
+
+    "hands_on_experience": "Hands-on coding and robotics experience for skill development.",
+
+    "prepare_students": "Prepare students for careers in technology and engineering fields.",
+
+    "embedded_boards_sensors": "Premium Embedded Technologies for Interactive Learning — Explore Our Top-Selling Products",
+
+    "inspire_stem_learning": "Ideal for building devices that inspire STEM learning",
+
+    "hands_on_experimentation": "Promote hands-on experimentation with innovative tech",
+
+    "student_hobbyist_projects": "Perfect for student and hobbyist projects alike.",
+
+    "popular_products": "Discover our range, including Arduino boards, Raspberry Pi kits, and various sensors for all your project needs",
+
+    "what_we_stand_for": "What We Stand For",
+
+    "innovating_tomorrow_today": "Innovating Tomorrow, Today",
+
+    "chipcosoft": "Chipcosoft Technology Co., LTD: Pioneers in Software Solutions and Technological Advancement",
+
+    "tailored_industry_solutions": "Tailored Industry Solutions: We create tailored solutions that drive industry transformation across Southeast Asia and beyond.",
+
+    "global_collaboration": "Global Collaboration: Our skilled engineers collaborate globally, delivering high-quality technology solutions.",
+
+    "empowering_local_talent": "Empowering Local Talent: We invest in the growth of local talent, providing businesses with the expertise needed to confidently navigate the ever-evolving tech landscape.",
+
+    "contact_us": "Contact Us!",
+
+    "faq_title": "Frequently Asked Questions",
+
+    "faq_1": "What types of embedded boards and sensors do you sell?",
+    "faq_1_answer": "We offer a wide range of embedded boards and sensors, including Arduino, Raspberry Pi, and various environmental sensors. These products are ideal for educational projects and help enhance STEM learning.",
+
+    "faq_2": "Are your products suitable for beginners and educators?",
+
+    "faq_3": "Do you offer guidance on integrating your products into educational curriculums?",
+
+    "faq_4": "How do your STEM coding robots enhance learning experiences in educational settings?",
+
+    "faq_5": "What types of support do you provide for troubleshooting and project development?",
+
+    "faq_example": "Perspiciatis quod quo quos nulla quo illum ullam?",
+
+    "contact_info": "We'd love to hear from you! Whether you have questions, need support, or want to discuss a project, feel free to reach out.",
+
+    "address": "CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek Leap, National Road 6, Phnom Penh, Cambodia",
+
+    "call_us": "Call Us",
+
+    "phone_cambodia": "Cambodia: (+82) 1052858486",
+
+    "phone_korea": "Korea: (+855) 95951517",
+
+    "email_us": "Email Us",
+
+    "email_contact": "chipsosoft@gmail.com",
+
+    "your_name": "Your Name",
+    "your_email": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+
+    "send_message": "Send Message",
+
+    "chipcosoft_tagline": "Chipcosoft “Empowering Chips, Powering Tomorrow”",
+
+    "phone_number": "Phone: +1 5589 55488 55",
+
+    "email_example": "Email: info@example.com",
+
+    "useful_links": "Useful Links",
+
+    "our_services": "Our Services",
+
+    "newsletter": "Our Newsletter",
+
+    "subscribe_newsletter": "Subscribe to our newsletter and receive the latest news about our products and services!"
+  },
+
+  "kh": {
+    "home": "មេផ្ទៃ",
+    "about": "អំពី",
+    "nav_services": "សេវាកម្ម",
+    "retail": "ហាង",
+    "faq": "សំណួរញឹកញាប់",
+    "contact": "ទំនាក់ទំនង",
+    "language_en": "EN",
+    "language_kh": "KH",
+
+    "hero_title": "ដំណោះស្រាយ IT & រូបករណ៍ដ៏អះអាង",
+    "hero_description": "កម្មវិធីទូទៅ, ប្រព័ន្ធរួមផ្សំ និងរូបករណ៍ដ៏អះអាងដើម្បីលើកកម្ពស់អាជីវកម្មរបស់អ្នក។",
+
+    "get_started": "ចាប់ផ្តើម",
+
+    "software": "ដំណោះស្រាយកម្មវិធីរួមផ្សំ, ការអភិវឌ្ឍ AI, និងការបន្តិចកម្មវិធីអាជីវកម្ម",
+    "hardware": "ការរចនាគូសសម្ភារៈ និងសេវាកម្មបោះពុម្ព PCB ដែលមានគុណភាពខ្ពស់",
+    "retails": "រូបករណ៍ កូដ STEM និងក្រុមហ៊ុន Embedded សម្រាប់គុណភាពការសិក្សាដ៏ល្អឥតខ្ចោះ",
+
+    "about_us": "នៅ Chipcosoft យើងមានជំនាញក្នុងការបន្ថែមនិងកំណត់អោយមានការកំណត់ជាមួយដំណោះស្រាយកម្មវិធីដែលមានរចនាឡើងដោយផ្ទាល់ដល់តម្រូវការរបស់អាជីវកម្មនៅអាស៊ីអាគ្នេយ៍។",
+
+    "strategic_partnerships": "យើងជឿថាការសហការគឺជារឿងសំខាន់សម្រាប់ភាពជោគជ័យ។ តាមរយៈការចូលរួមជាមួយក្រុមហ៊ុនកូរ៉េដែលមានសក្ដានុពលយើងបានអនុវត្តន៍ការប្រាស្រ័យទាក់ទងនិងការគាំទ្រដោយគ្មានរំខាន។ ក្រុម Cambodian ដែលមានការបណ្ដុះបណ្ដាលបានសម្រេចការផ្គូផ្គងជាមួយនឹងស្តង់ដារអន្តរជាតិក្នុងការផ្ដល់ដំណោះស្រាយកម្មវិធីល្អឥតខ្ចោះនៅទូទាំងអាស៊ីអាគ្នេយ៍។",
+
+    "our_vision": "យើងស្រមៃចង់ក្លាយជាក្រុមហ៊ុនអភិវឌ្ឍកម្មវិធីដែលមានប្រសិទ្ធភាពនៅទូទាំងអាស៊ីអាគ្នេយ៍ដែលគេស្គាល់ចំពោះដំណោះស្រាយដែលអភិវឌ្ឍន៍គន្លងអាចប្រើបាន។ ការប្តេជ្ញារបស់យើងដើម្បីអភិវឌ្ឍន៍និងបង្កើតដំណោះស្រាយថ្មីៗអាចធានាបានអាជីវកម្មយើងត្រូវមានចំណាត់ថ្នាក់ល្អបំផុតនៅលើទីផ្សារ។",
+
+    "our_mission": "បេសកកម្មរបស់យើងគឺដើម្បីជំរុញការអភិវឌ្ឍន៍ទូទាំងអាស៊ីអាគ្នេយ៍ដោយផ្ដល់ដំណោះស្រាយកម្មវិធីដែលបន្ថែមការពាក់ព័ន្ធរបស់មនុស្សជាតិកម្ពុជា និងការផ្សារភ្ជាប់យ៉ាងជិតស្និទ្ធ។ នៅក្នុងកិច្ចសហការនេះយើងអាចធ្វើអោយអាជីវកម្មក្លាយជាអ្នកឈានមុខនៅក្នុងបរិយាកាសបច្ចេកវិទ្យាដែលមានការផ្លាស់ប្តូរយ៉ាងឆាប់រហ័ស។",
+
+    "services": "ដំណោះស្រាយកម្មវិធី និងឧបករណ៍គុណភាពខ្ពស់: ដំណោះស្រាយកុំព្យូទ័រច្នៃប្រឌិតដោយផ្តល់អត្ថប្រយោជន៍មួយជាច្រើនក្នុងប្រព័ន្ធរួមផ្សំ, AI និងអេឡិចត្រូនិកថ្មីៗ",
+
+    "embedded_software_solutions": "កម្មវិធី Firmware និងការរួមបញ្ចូលប្រព័ន្ធរួមផ្សំដោយខ្លួនឯង",
+
+    "learn_more": "ស្វែងយល់បន្ថែម",
+
+    "ai_software_development": "ដំណោះស្រាយច្នៃប្រឌិតសម្រាប់ការបន្ថែមស្វ័យប្រវត្តិក្នុងការធ្វើអោយមានភាពល្អឥតខ្ចោះ",
+
+    "software_outsourcing_services": "ការអភិវឌ្ឍឯកទេសសម្រាប់តម្រូវការរបស់អ្នក",
+
+    "automated_crypto_trading_software": "បង្កើនការវិនិយោគរបស់អ្នកដោយដំណោះស្រាយឆ្លាតវៃ",
+
+    "professional_schematic_design": "ការធ្វើផែនការអេឡិចត្រូនិចដែលមានភាពត្រឹមត្រូវសម្រាប់ការរួមបញ្ចូលដោយគ្មានគ្រោះថ្នាក់",
+
+    "high_quality_pcb_printing": "ការផ្គត់ផ្គង់ឧបករណ៍ការផិតទន់សម្រាប់ការរចនាអេឡិចត្រូនិច",
+
+    "retail_services": "ដំណោះស្រាយកម្មវិធី និងឧបករណ៍គុណភាពខ្ពស់: ដំណោះស្រាយកុំព្យូទ័រច្នៃប្រឌិតដែលផ្តល់អត្ថប្រយោជន៍មួយជាច្រើនក្នុងប្រព័ន្ធរួមផ្សំ, AI និងអេឡិចត្រូនិកថ្មីៗ",
+
+    "stem_coding_robots": "ជួយអោយវប្បធម៌ការសិក្សាថ្នាក់កណ្តាលដល់កុមារសំរាប់សិក្សាទំនាក់ទំនង",
+
+    "ignite_curiosity": "ជំរុញកិច្ចស្វែងយល់ និងការបង្កើតក្នុងអ្នកច្នៃប្រឌិតកន្លែងនាពេលអនាគត។",
+
+    "hands_on_experience": "ការស្វែងយល់ពីការងារលើសកម្មភាពសម្រាប់ការអភិវឌ្ឍជំនាញ។",
+
+    "prepare_students": "រៀបចំសិស្សសម្រាប់អាជីវកម្មក្នុងវិស័យបច្ចេកវិទ្យានិងវិស្វកម្ម។",
+
+    "embedded_boards_sensors": "បច្ចេកវិទ្យារួមផ្សំដែលមានគុណភាពខ្ពស់សម្រាប់ការសិក្សារសកម្មភាព — ស្វែងរកផលិតផលដែលល្អបំផុតរបស់យើង",
+
+    "inspire_stem_learning": "អាកាសធាតុសម្រាប់ការបង្កើតឧបករណ៍ដែលជំរុញការសិក្សា STEM",
+
+    "hands_on_experimentation": "គាំទ្រការស្រាវជ្រាវនៅកន្លែងធ្វើការលើបច្ចេកវិទ្យាដ៏អស្ចារ្យ",
+
+    "student_hobbyist_projects": "សម្រាប់គម្រោងកុមារនិងអ្នកចាប់ផ្តើមដ៏ល្អបំផុត។",
+
+    "popular_products": "ស្វែងរកជួរដ៏សម្បូរ រួមទាំងក្រុមហ៊ុន Arduino, Raspberry Pi និងឧបករណ៍អេឡិចត្រូនិចនានា សម្រាប់តម្រូវការទាំងអស់របស់អ្នក។",
+
+    "what_we_stand_for": "អ្វីដែលយើងគិត",
+
+    "innovating_tomorrow_today": "ដំណោះស្រាយថ្មីៗថ្ងៃនេះ, ប៉ុន្តែបន្ទាន់តែមួយ។",
+
+    "chipcosoft": "Chipcosoft Technology Co., LTD: មុខសញ្ញានៅក្នុងដំណោះស្រាយកម្មវិធី និងការអភិវឌ្ឍបច្ចេកវិទ្យា។",
+
+    "tailored_industry_solutions": "ដំណោះស្រាយឧស្សាហកម្មបានកំណត់: យើងបានចេញឧបករណ៍ល្អប្រសើរជាងនេះដែលឈានមុខយ៉ាងមាំមួននៅក្នុងប្រទេសទាំងអស់នៅអាស៊ីអាគ្នេយ៍។",
+
+    "global_collaboration": "ការសហការអន្តរជាតិ: វិស្វករដែលមានសមត្ថភាពនៅក្នុងមជ្ឈមណ្ឌលប្រព័ន្ធការកសាងស្តង់ដារល្អឥតខ្ចោះ។",
+
+    "empowering_local_talent": "ជួយឲ្យមានសមត្ថភាពសម្រាប់ជំនាញក្នុងមុខងារដែលបានជឿទុកចិត្តបានអត្ថប្រយោជន៍ទាំងមូល។",
+
+    "contact_us": "ទំនាក់ទំនងមកយើង!",
+
+    "faq_title": "សំណួរញឹកញាប់",
+
+    "faq_1": "ប្រភេទនៃក្រុមហ៊ុន Embedded និងឧបករណ៍នានាដែលអ្នកចង់លក់?",
+    "faq_1_answer": "យើងផ្ដល់នូវជួរនៃក្រុមហ៊ុន Embedded និងឧបករណ៍ផ្សេងៗដែលរួមបញ្ចូល Arduino, Raspberry Pi, និងឧបករណ៍បរិយាកាសនានា។ ផលិតផលទាំងនេះមានគុណភាពសម្រាប់គម្រោងការសិក្សាដែលជួយឲ្យមានការសិក្សាដ៏ល្អឥតខ្ចោះ។",
+
+    "faq_2": "ផលិតផលរបស់អ្នកសមស្របសម្រាប់អ្នកចាប់ផ្តើម និងគ្រូបង្គោលទេ?",
+
+    "faq_3": "តើអ្នកមានជំនួយក្នុងការរួមបញ្ចូលផលិតផលរបស់អ្នកនៅក្នុងវិស្ស័យសិក្សាឬ?",
+
+    "faq_4": "តើរូបករណ៍កូដ STEM របស់អ្នកធ្វើអោយមានការសិក្សាដែលអាចជួយបង្រៀនកម្រិតឬដែរ?",
+
+    "faq_5": "តើអ្នកផ្ដល់ការគាំទ្រនានាដែលអាចជួយក្នុងការបញ្ចេញកំណត់ត្រា និងការអភិវឌ្ឍន៍គម្រោង?",
+
+    "faq_example": "Perspiciatis quod quo quos nulla quo illum ullam?",
+
+    "contact_info": "យើងក៏ចង់ដឹងពីអ្នក! ទោះជាអ្នកមានសំណួរ, ត្រូវការជំនួយ, ឬចង់សម្ភាសន៍គម្រោង, សូមទំនាក់ទំនងមកយើង។",
+
+    "address": "CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek Leap, National Road 6, Phnom Penh, Cambodia",
+
+    "call_us": "អញ្ជើញទាក់ទងមកយើង",
+
+    "phone_cambodia": "កម្ពុជា: (+82) 1052858486",
+
+    "phone_korea": "កូរ៉េ: (+855) 95951517",
+
+    "email": "info@chipcosoft.com",
+
+    "social_media": "តាមដានយើង",
+
+    "facebook": "Facebook",
+
+    "instagram": "Instagram",
+
+    "linkedin": "LinkedIn"
+
+}

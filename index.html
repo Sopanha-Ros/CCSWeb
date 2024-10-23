@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Chipcosoft</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo-red-300x300.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img style="width: 200px" src="assets/img/logo-red.png" alt="" />
+          <h1 class="sitename"></h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#retail">Retail</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li>
+              <div class="container">
+                <button class="btn-lang active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+                <button class="btn-lang" data-lang="kh" onclick="switchLanguage('kh')">KH</button>
+              </div>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="hero-bg">
+          <img src="assets/img/hero-bg-light.jpg" alt="" />
+        </div>
+        <div class="container text-center">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1 data-lang-key="hero_title" data-aos="fade-up">
+              Innovative <span>IT & Robotics</span> Solutions
+            </h1>
+            <p data-lang-key="hero_description" data-aos="fade-up" data-aos-delay="100">
+              Custom software, embedded systems, and cutting-edge robotics to
+              elevate your business.
+
+              <br />
+            </p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Featured Services Section -->
+      <section
+        id="featured-services"
+        class="featured-services section light-background"
+      >
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-xl-4 col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-code-square"></i>
+                </div>
+
+                <div>
+                  <h4 class="title">
+                    <a href="#" class="stretched-link">Software</a>
+                  </h4>
+                  <p class="description">
+                    Comprehensive Embedded Software Solutions, AI Development,
+                    and Software Outsourcing
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-4 col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-motherboard"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="#" class="stretched-link">Hardware</a>
+                  </h4>
+                  <p class="description">
+                    Expert Schematic Design and High-Quality PCB Printing
+                    Services
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-4 col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-shop-window"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a href="#" class="stretched-link">Retails</a>
+                  </h4>
+                  <p class="description">
+                    Top STEM Coding Robots and Embedded Boards for Educational
+                    Excellence
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Featured Services Section -->
+
+      <!-- About Section -->
+
+      <section id="about" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About Us</h2>
+          <p>
+            At Chipcosoft, we specialize in empowering innovation and growth
+            with custom software solutions tailored to the unique needs of
+            businesses across Southeast Asia.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-5 d-flex align-items-center">
+              <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-bs-toggle="tab"
+                    data-bs-target="#features-tab-1"
+                  >
+                    <i class="bi bi-globe-central-south-asia"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">Strategic Partnerships</h4>
+                      <p>
+                        We believe collaboration is essential for success. By
+                        partnering with esteemed Korean companies, we facilitate
+                        seamless communication and support. Our talented
+                        Cambodian team combines local expertise with
+                        international standards to deliver exceptional software
+                        solutions throughout Southeast Asia.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#features-tab-2"
+                  >
+                    <i class="bi bi-eye"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">Our Vision</h4>
+                      <p>
+                        We aspire to be a leading global software development
+                        firm in Southeast Asia, known for groundbreaking
+                        solutions that redefine possibilities. Our commitment to
+                        innovation enables businesses to gain a competitive edge
+                        in the market.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#features-tab-3"
+                  >
+                    <i class="bi bi-bullseye"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">Our Mission</h4>
+                      <p>
+                        Our mission is to drive innovation across Southeast Asia
+                        by delivering tailored software solutions, empowering
+                        local talent, and fostering strategic partnerships.
+                        Together, we enable businesses to thrive in a rapidly
+                        evolving tech landscape.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Tab Nav -->
+            </div>
+
+            <div class="col-lg-6">
+              <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="tab-pane fade active show" id="features-tab-1">
+                  <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+
+                <div class="tab-pane fade" id="features-tab-2">
+                  <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+
+                <div class="tab-pane fade" id="features-tab-3">
+                  <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- /About Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>
+            Comprehensive Software and Hardware Solutions: Empowering Innovation
+            through Embedded Systems, AI, and Cutting-Edge Electronics
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item item-cyan position-relative">
+                <i class="bi bi-code-slash icon"></i>
+                <div id="embeded">
+                  <h3>Embedded Software Solutions</h3>
+                  <p>Custom Microcontroller Firmware and System Integration</p>
+                  <a href="#" class="read-more stretched-link"
+                    >Learn More <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item item-orange position-relative">
+                <i class="bi bi-cpu icon"></i>
+                <div id="aisoftware">
+                  <h3>AI Software Development</h3>
+                  <p>Innovative Solutions for Enhanced Automation</p>
+                  <a href="#" class="read-more stretched-link"
+                    >Learn More <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item item-teal position-relative">
+                <i class="bi bi-person-lines-fill icon"></i>
+                <div id="outsourcing">
+                  <h3>Software Outsourcing Services</h3>
+                  <p>Expert Development for Your Business Needs</p>
+                  <a href="#" class="read-more stretched-link"
+                    >Learn More <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item item-red position-relative">
+                <i class="bi bi-currency-bitcoin icon"></i>
+                <div id="autocrypto">
+                  <h3>Automated Crypto Trading Software</h3>
+                  <p>Maximize Your Investments with Smart Solutions</p>
+                  <a href="#" class="read-more stretched-link"
+                    >Learn More <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item item-indigo position-relative">
+                <i class="bi bi-diagram-2 icon"></i>
+                <div id="schematic">
+                  <h3>Professional Schematic Design</h3>
+                  <p>Accurate Hardware Planning for Seamless Integration</p>
+                  <a href="#" class="read-more stretched-link"
+                    >Learn More <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item item-pink position-relative">
+                <i class="bi bi-motherboard icon"></i>
+                <div id="pcbprint">
+                  <h3>High-Quality PCB Printing Services</h3>
+                  <p>Reliable Manufacturing for Electronic Designs</p>
+                  <a href="#" class="read-more stretched-link"
+                    >Learn More <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Retail  Section -->
+      <section id="retail" class="features-details section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Retail</h2>
+          <p>
+            Comprehensive Software and Hardware Solutions: Empowering Innovation
+            through Embedded Systems, AI, and Cutting-Edge Electronics
+          </p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container">
+          <div class="row gy-4 justify-content-between features-item">
+            <div
+              class="col-lg-5 d-flex align-items-center order-2 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="content">
+                <h3>STEM Coding Robots</h3>
+                <p>Empowering Young Innovators with STEM Education</p>
+                <ul>
+                  <li>
+                    <i class="bi bi-lightbulb flex-shrink-0"></i>Ignite curiosity
+                    and creativity in future technologists.
+                  </li>
+                  <li>
+                    <i class="bi bi-tools flex-shrink-0"></i>
+                    Hands-on coding and robotics experience for skill
+                    development.
+                  </li>
+                  <li>
+                    <i class="bi bi-briefcase flex-shrink-0"></i> Prepare
+                    students for careers in technology and engineering fields.
+                  </li>
+                </ul>
+                <p></p>
+                <a href="#" class="btn more-btn">Learn More</a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 order-1 order-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+
+          
+
+      <!-- /Retail Section -->
+
+      <!-- More Features Section -->
+      <section id="retail" class="more-features section">
+        <div class="container">
+            <div class="row justify-content-around gy-4">
+                <div
+                    class="features-image col-lg-5 order-1 order-lg-1"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                >
+                    <img src="assets/img/features-3.jpg" alt="" />
+                </div>
+    
+                <div
+                    class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-2"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                >
+                    <h3>Embedded Boards & Sensors
+                    </h3>
+                    <p>
+                      Premium Embedded Technologies for Interactive Learning — Explore Our Top-Selling Products
+                    </p>
+    
+                    <div class="row">
+                        <div class="col-lg-6 icon-box d-flex">
+                            <i class="bi bi-book flex-shrink-0"></i>
+                            <div>
+                                <h4>Inspire STEM Learning</h4>
+                                <p>
+                                  Ideal for building devices that inspire STEM learning
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Icon Box -->
+    
+                        <div class="col-lg-6 icon-box d-flex">
+                            <i class="bi bi-hammer flex-shrink-0"></i>
+                            <div>
+                                <h4>Hands-On Experimentation</h4>
+                                <p>
+                                  Promote hands-on experimentation with innovative tech
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Icon Box -->
+    
+                        <div class="col-lg-6 icon-box d-flex">
+                            <i class="bi bi-person-fill flex-shrink-0"></i>
+                            <div>
+                                <h4>Student and Hobbyist Projects</h4>
+                                <p>
+                                  Perfect for student and hobbyist projects alike.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Icon Box -->
+    
+                        <div class="col-lg-6 icon-box d-flex">
+                            <i class="bi bi-box flex-shrink-0"></i>
+                            <div>
+                                <h4>Popular Products</h4>
+                                <p>
+                                  Discover our range, including Arduino boards, Raspberry Pi kits, and various sensors for all your project needs
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Icon Box -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /More Features Section -->
+      <section id="features" class="about section">
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="who-we-are">What We Stand For</p>
+              <h3>Innovating Tomorrow, Today</h3>
+              <p class="fst-italic">
+                <b>Chipcosoft Technology Co., LTD</b>: Pioneers in Software
+                Solutions and Technological Advancement
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle"></i>
+                  <span
+                    ><b>Tailored Industry Solutions:</b> We create tailored
+                    solutions that drive <br />
+                    industry transformation across Southeast Asia and beyond.
+                  </span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i>
+                  <span
+                    ><b>Global Collaboration: </b> Our skilled engineers
+                    collaborate <br />
+                    globally, delivering high-quality technology solutions.
+                  </span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i>
+                  <span
+                    ><b>Empowering Local Talent: </b> We invest in the growth of
+                    local talent, <br />
+                    providing businesses with the expertise needed to
+                    confidently navigate <br />
+                    the ever-evolving tech landscape.
+                  </span>
+                </li>
+              </ul>
+              <a href="#contact" class="read-more"
+                ><span>Contact Us!</span><i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+
+            <div
+              class="col-lg-6 about-images"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <img
+                    src="assets/img/about-company-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="row gy-4">
+                    <div class="col-lg-12">
+                      <img
+                        src="assets/img/about-company-2.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-lg-12">
+                      <img
+                        src="assets/img/about-company-3.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3>What types of embedded boards and sensors do you sell?</h3>
+                  <div class="faq-content">
+                    <p>
+                      We offer a wide range of embedded boards and sensors, including Arduino, Raspberry Pi, and various environmental sensors. These products are ideal for educational projects and help enhance STEM learning.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Are your products suitable for beginners and educators?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Yes! Our embedded boards, sensors, and coding robots are designed for all skill levels. We provide resources, tutorials, and customer support to help both beginners and educators successfully implement these technologies in their projects.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    Do you offer guidance on integrating your products into educational curriculums?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Absolutely! We provide guidance and resources to help educators integrate our products into their curricula, ensuring students can benefit from hands-on learning experiences.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    How do your STEM coding robots enhance learning experiences in educational settings?
+
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Our STEM coding robots offer interactive and engaging learning experiences that promote creativity and critical thinking. By allowing students to code and control robots, they gain practical skills in programming, robotics, and engineering principles, which are essential for their future careers.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    What types of support do you provide for troubleshooting and project development?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      We offer a variety of support options, including a dedicated help center, online resources, and expert assistance via email or chat. Whether you encounter technical issues or need advice on project development, our team is here to guide you through the process, ensuring you maximize the potential of our products.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Enim ea facilis quaerat voluptas quidem et dolorem. Quis
+                      et consequatur non sed in suscipit sequi. Distinctio ipsam
+                      dolore et.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
+            <!-- End Faq Column-->
+          </div>
+        </div>
+      </section>
+      <!-- /Faq Section -->
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>
+            We'd love to hear from you! Whether you have questions, need
+            support, or want to discuss a project, feel free to reach out.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-geo-alt"></i>
+                <h3>Address</h3>
+                <p class="mx-4">
+                  CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek
+                  Leap, <br />National Road 6, Phnom Penh, Cambodia
+                </p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-telephone"></i>
+                <h3>Call Us</h3>
+                <p><b>Cambodia:</b> (+82) 1052858486</p>
+                <p><b>Korea:</b> (+855) 95951517</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-envelope"></i>
+                <h3>Email Us</h3>
+                <p>chipsosoft@gmail.com</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+
+          <div class="row gy-4 mt-1">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4401.098922328457!2d104.90884797551065!3d11.654294242387383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310953bad45e4ee1%3A0x6c33cb023d508017!2sCADT%20-%20Innovation%20Center!5e1!3m2!1sen!2skh!4v1729565776733!5m2!1sen!2skh"
+                frameborder="0"
+                style="border: 0; width: 100%; height: 400px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <!-- End Google Maps -->
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Chipcosoft</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>“Empowering Chips, Powering Tomorrow”</p>
+
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#retail">Retail</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#embeded">Embedded Software Solutions</a></li>
+              <li><a href="#aisoftware">AI Software Development</a></li>
+              <li><a href="#outsourcing">Software Outsourcing Sevices</a></li>
+              <li><a href="#autocrypto">Automated Crypto Trading Software</a></li>
+              <li><a href="#schematic">Professional Schematic Design</a></li>
+              <li><a href="#pcbprint">High-Quality PCB-Printing Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your subscription request has been sent. Thank you!
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Chipcosoft</strong
+          ><span>All Rights Reserved</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
