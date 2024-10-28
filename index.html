@@ -46,21 +46,33 @@
       >
         <a href="index.html" class="logo d-flex align-items-center me-auto">
           <img style="width: 200px" src="assets/img/logo-red.png" alt="" />
-          <h1 class="sitename"></h1>
+          <p style="margin-bottom: 0; color: black">Cambodia</p>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html#hero" class="active">Home</a></li>
+            <!-- <li><a href="index.html#hero" class="active">Home</a></li> -->
             <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#retail">Retail</a></li>
+            <li><a href="index.html#services">Business / Services</a></li>
+            <li><a href="index.html#retail">Events</a></li>
             <li><a href="index.html#faq">FAQ</a></li>
             <li><a href="index.html#contact">Contact</a></li>
             <li>
               <div class="container">
-                <button class="btn-lang active" data-lang="en" onclick="switchLanguage('en')">EN</button>
-                <button class="btn-lang" data-lang="kh" onclick="switchLanguage('kh')">KH</button>
+                <button
+                  class="btn-lang active"
+                  data-lang="en"
+                  onclick="switchLanguage('en')"
+                >
+                  EN
+                </button>
+                <button
+                  class="btn-lang"
+                  data-lang="kh"
+                  onclick="switchLanguage('kh')"
+                >
+                  KH
+                </button>
               </div>
             </li>
           </ul>
@@ -80,11 +92,15 @@
             class="d-flex flex-column justify-content-center align-items-center"
           >
             <h1 data-lang-key="hero_title" data-aos="fade-up">
-              Innovative <span>IT & Robotics</span> Solutions
+              <span>Embedded & AI</span> Software Solutions
             </h1>
-            <p data-lang-key="hero_description" data-aos="fade-up" data-aos-delay="100">
-              Custom software, embedded systems, and cutting-edge robotics to
-              elevate your business.
+            <p
+              data-lang-key="hero_description"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Web Software, IoT/System Modules, System-on-Chip Software, AI
+              Solutions
 
               <br />
             </p>
@@ -110,16 +126,18 @@
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-code-square"></i>
+                  <i class="bi bi-terminal-plus"></i>
                 </div>
 
                 <div>
                   <h4 class="title">
-                    <a href="#" class="stretched-link">Software</a>
+                    <a href="#" class="stretched-link">Embedded Software</a>
                   </h4>
                   <p class="description">
-                    Comprehensive Embedded Software Solutions, AI Development,
-                    and Software Outsourcing
+                    We provide microcontrollers and chip firmware/software.
+                    design. and develop for various applications, such as IoT,
+                    robotics, and other applications by using modern chipsets.
+                    and integrating a customized software solution.
                   </p>
                 </div>
               </div>
@@ -133,15 +151,17 @@
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-motherboard"></i>
+                  <i class="bi bi-bounding-box"></i>
                 </div>
                 <div>
                   <h4 class="title">
-                    <a href="#" class="stretched-link">Hardware</a>
+                    <a href="#" class="stretched-link">AI Software</a>
                   </h4>
                   <p class="description">
-                    Expert Schematic Design and High-Quality PCB Printing
-                    Services
+                    We provide AI data annotation (data labeling) such as
+                    boundary boxes (Bbox), Keypoint, LiDAR 3D, etc. with our
+                    good manpower resource to generate high-quality datasets for
+                    different AI applications.
                   </p>
                 </div>
               </div>
@@ -155,15 +175,17 @@
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-shop-window"></i>
+                  <i class="bi bi-robot"></i>
                 </div>
                 <div>
                   <h4 class="title">
-                    <a href="#" class="stretched-link">Retails</a>
+                    <a href="#" class="stretched-link">Partner Solution</a>
                   </h4>
                   <p class="description">
-                    Top STEM Coding Robots and Embedded Boards for Educational
-                    Excellence
+                    STEM education robotic, which can be used with the Scratch
+                    Program and Arduino C program. It is a tool and program from
+                    primary to high school. We also provide software and
+                    training package service.
                   </p>
                 </div>
               </div>
@@ -175,15 +197,19 @@
       <!-- /Featured Services Section -->
 
       <!-- About Section -->
-
       <section id="about" class="features section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>About Us</h2>
-          <p>
-            At Chipcosoft, we specialize in empowering innovation and growth
-            with custom software solutions tailored to the unique needs of
-            businesses across Southeast Asia.
+          <p style="text-align: start">
+            Chipcosoft (it stands for
+            <b>chip</b>-<b>co</b>ntrol-<b>soft</b>ware) was established in 2023
+            in the kingdom of Cambodia. The company focuses on embedded software
+            solutions that use cutting-edge System on Module (SoM) and System on
+            Chip (SoC) for IoT and industry robotic applications. Also, our
+            recent business is mainly focused on AI solutions (Data Annotation
+            Service) and collaborating with our global partner to introduce new
+            solutions and open new markets in South Asia.
           </p>
         </div>
         <!-- End Section Title -->
@@ -282,7 +308,7 @@
       <section id="services" class="services section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Services</h2>
+          <h2>Business / Services</h2>
           <p>
             Comprehensive Software and Hardware Solutions: Empowering Innovation
             through Embedded Systems, AI, and Cutting-Edge Electronics
@@ -298,9 +324,12 @@
                 <div id="embeded">
                   <h3>Embedded Software Solutions</h3>
                   <p>Custom Microcontroller Firmware and System Integration</p>
-                  <a href="#" class="read-more stretched-link"
-                    >Learn More <i class="bi bi-arrow-right"></i
-                  ></a>
+
+                  <img
+                    style="width: 100%; height: auto"
+                    src="/assets/img/embedded.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -310,11 +339,15 @@
               <div class="service-item item-orange position-relative">
                 <i class="bi bi-cpu icon"></i>
                 <div id="aisoftware">
-                  <h3>AI Software Development</h3>
-                  <p>Innovative Solutions for Enhanced Automation</p>
-                  <a href="#" class="read-more stretched-link"
-                    >Learn More <i class="bi bi-arrow-right"></i
-                  ></a>
+                  <h3>AI Data labeling/Annotation</h3>
+                  <p>
+                    Labeling data to teach AI systems how to recognize patterns
+                  </p>
+                  <img
+                    style="width: 100%; height: auto; margin-top: 20px"
+                    src="/assets/img/ai_data_labeling.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -326,9 +359,12 @@
                 <div id="outsourcing">
                   <h3>Software Outsourcing Services</h3>
                   <p>Expert Development for Your Business Needs</p>
-                  <a href="#" class="read-more stretched-link"
-                    >Learn More <i class="bi bi-arrow-right"></i
-                  ></a>
+
+                  <img
+                    style="width: 100%; height: auto; margin-top: 20px"
+                    src="/assets/img/outsourcing.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -340,37 +376,12 @@
                 <div id="autocrypto">
                   <h3>Automated Crypto Trading Software</h3>
                   <p>Maximize Your Investments with Smart Solutions</p>
-                  <a href="#" class="read-more stretched-link"
-                    >Learn More <i class="bi bi-arrow-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-              <div class="service-item item-indigo position-relative">
-                <i class="bi bi-diagram-2 icon"></i>
-                <div id="schematic">
-                  <h3>Professional Schematic Design</h3>
-                  <p>Accurate Hardware Planning for Seamless Integration</p>
-                  <a href="#" class="read-more stretched-link"
-                    >Learn More <i class="bi bi-arrow-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
-              <div class="service-item item-pink position-relative">
-                <i class="bi bi-motherboard icon"></i>
-                <div id="pcbprint">
-                  <h3>High-Quality PCB Printing Services</h3>
-                  <p>Reliable Manufacturing for Electronic Designs</p>
-                  <a href="#" class="read-more stretched-link"
-                    >Learn More <i class="bi bi-arrow-right"></i
-                  ></a>
+                  <img
+                    style="width: 100%; height: auto; margin-top: 20px"
+                    src="/assets/img/autotrading.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -380,17 +391,85 @@
       </section>
       <!-- /Services Section -->
 
-      <!-- Retail  Section -->
-      <section id="retail" class="features-details section">
-        <!-- Section Title -->
+      <section class="container features-details section">
         <div class="container section-title" data-aos="fade-up">
-          <h2>Retail</h2>
+          <h2>
+            Events <br />
+            <span><h4>(Client & Partner Solution)</h4></span>
+          </h2>
+          <p>
+            Customized solutions to empower clients and partners for shared
+            growth and success
+          </p>
+        </div>
+        <!-- End Section Title -->
+        <div class="row ms-5 features-item">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div
+              class="d-flex flex-column justify-content-between content h-100 p-4"
+            >
+              <h3>SCM & Crypto/Coin Trading</h3>
+              <ul>
+                <li>
+                  <i class="bi bi-diagram-3 flex-shrink-0"></i> Supply Chain
+                  Management (SCM) Consultant
+                </li>
+                <li>
+                  <i class="bi bi-currency-bitcoin flex-shrink-0"></i>
+                  Crypto Auto Trading Software Solution
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div
+              class="d-flex flex-column justify-content-between content h-100 p-4"
+            >
+              <h3>STEM (Science, Technology, Engineer, Math)</h3>
+              <ul>
+                <li>
+                  <i class="bi bi-robot flex-shrink-0"></i> Educational Coding
+                  Robotic
+                </li>
+                <li>
+                  <i class="bi bi-book flex-shrink-0"></i>
+                  STEM Technical Training
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div
+              class="d-flex flex-column justify-content-between content h-100 p-4"
+            >
+              <h3>AI Solution & Tools</h3>
+              <ul>
+                <li>
+                  <i class="bi bi-bar-chart flex-shrink-0"></i> AI data modeling
+                </li>
+                <li>
+                  <i class="bi bi-cpu flex-shrink-0"></i>
+                  AI Software Applications
+                </li>
+                <li>
+                  <i class="bi bi-ui-checks-grid flex-shrink-0"></i> AI Data
+                  Labeling (Data Annotation)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="retail" class="features-details section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Events</h2>
           <p>
             Comprehensive Software and Hardware Solutions: Empowering Innovation
             through Embedded Systems, AI, and Cutting-Edge Electronics
           </p>
         </div>
-        <!-- End Section Title -->
+
         <div class="container">
           <div class="row gy-4 justify-content-between features-item">
             <div
@@ -403,8 +482,8 @@
                 <p>Empowering Young Innovators with STEM Education</p>
                 <ul>
                   <li>
-                    <i class="bi bi-lightbulb flex-shrink-0"></i>Ignite curiosity
-                    and creativity in future technologists.
+                    <i class="bi bi-lightbulb flex-shrink-0"></i>Ignite
+                    curiosity and creativity in future technologists.
                   </li>
                   <li>
                     <i class="bi bi-tools flex-shrink-0"></i>
@@ -429,84 +508,78 @@
               <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
             </div>
           </div>
-
-          
-
-      <!-- /Retail Section -->
+        </div>
+      </section> -->
 
       <!-- More Features Section -->
-      <section id="retail" class="more-features section">
+      <!-- <section id="retail" class="more-features section">
         <div class="container">
-            <div class="row justify-content-around gy-4">
-                <div
-                    class="features-image col-lg-5 order-1 order-lg-1"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                >
-                    <img src="assets/img/features-3.jpg" alt="" />
-                </div>
-    
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-2"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                >
-                    <h3>Embedded Boards & Sensors
-                    </h3>
-                    <p>
-                      Premium Embedded Technologies for Interactive Learning — Explore Our Top-Selling Products
-                    </p>
-    
-                    <div class="row">
-                        <div class="col-lg-6 icon-box d-flex">
-                            <i class="bi bi-book flex-shrink-0"></i>
-                            <div>
-                                <h4>Inspire STEM Learning</h4>
-                                <p>
-                                  Ideal for building devices that inspire STEM learning
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End Icon Box -->
-    
-                        <div class="col-lg-6 icon-box d-flex">
-                            <i class="bi bi-hammer flex-shrink-0"></i>
-                            <div>
-                                <h4>Hands-On Experimentation</h4>
-                                <p>
-                                  Promote hands-on experimentation with innovative tech
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End Icon Box -->
-    
-                        <div class="col-lg-6 icon-box d-flex">
-                            <i class="bi bi-person-fill flex-shrink-0"></i>
-                            <div>
-                                <h4>Student and Hobbyist Projects</h4>
-                                <p>
-                                  Perfect for student and hobbyist projects alike.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End Icon Box -->
-    
-                        <div class="col-lg-6 icon-box d-flex">
-                            <i class="bi bi-box flex-shrink-0"></i>
-                            <div>
-                                <h4>Popular Products</h4>
-                                <p>
-                                  Discover our range, including Arduino boards, Raspberry Pi kits, and various sensors for all your project needs
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End Icon Box -->
-                    </div>
-                </div>
+          <div class="row justify-content-around gy-4">
+            <div
+              class="features-image col-lg-5 order-1 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img src="assets/img/features-3.jpg" alt="" />
             </div>
+
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h3>Embedded Boards & Sensors</h3>
+              <p>
+                Premium Embedded Technologies for Interactive Learning — Explore
+                Our Top-Selling Products
+              </p>
+
+              <div class="row">
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-book flex-shrink-0"></i>
+                  <div>
+                    <h4>Inspire STEM Learning</h4>
+                    <p>Ideal for building devices that inspire STEM learning</p>
+                  </div>
+                </div>
+                <!-- End Icon Box 
+
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-hammer flex-shrink-0"></i>
+                  <div>
+                    <h4>Hands-On Experimentation</h4>
+                    <p>Promote hands-on experimentation with innovative tech</p>
+                  </div>
+                </div>
+                <!-- End Icon Box 
+
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-person-fill flex-shrink-0"></i>
+                  <div>
+                    <h4>Student and Hobbyist Projects</h4>
+                    <p>Perfect for student and hobbyist projects alike.</p>
+                  </div>
+                </div>
+                <!-- End Icon Box 
+
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-box flex-shrink-0"></i>
+                  <div>
+                    <h4>Popular Products</h4>
+                    <p>
+                      Discover our range, including Arduino boards, Raspberry Pi
+                      kits, and various sensors for all your project needs
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- /More Features Section -->
+      </section> -->
+
+      <!-- /More Features Section -->
       <section id="features" class="about section">
         <div class="container">
           <div class="row gy-4">
@@ -591,7 +664,6 @@
         </div>
       </section>
 
-
       <!-- Faq Section -->
       <section id="faq" class="faq section">
         <!-- Section Title -->
@@ -605,21 +677,16 @@
             <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
               <div class="faq-container">
                 <div class="faq-item faq-active">
-                  <h3>What types of embedded boards and sensors do you sell?</h3>
+                  <h3>
+                    What types of AI data annotation services do you offer?
+                  </h3>
                   <div class="faq-content">
                     <p>
-                      We offer a wide range of embedded boards and sensors, including Arduino, Raspberry Pi, and various environmental sensors. These products are ideal for educational projects and help enhance STEM learning.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item">
-                  <h3>Are your products suitable for beginners and educators?</h3>
-                  <div class="faq-content">
-                    <p>
-                      Yes! Our embedded boards, sensors, and coding robots are designed for all skill levels. We provide resources, tutorials, and customer support to help both beginners and educators successfully implement these technologies in their projects.
+                      We provide comprehensive data labeling services, including
+                      boundary boxes, keypoints, and LiDAR 3D annotations,
+                      tailored for various AI applications. Our team ensures
+                      high-quality datasets to support effective AI model
+                      training.
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -628,11 +695,15 @@
 
                 <div class="faq-item">
                   <h3>
-                    Do you offer guidance on integrating your products into educational curriculums?
+                    How can your embedded software solutions benefit IoT and
+                    robotics applications?
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Absolutely! We provide guidance and resources to help educators integrate our products into their curricula, ensuring students can benefit from hands-on learning experiences.
+                      Our embedded software solutions are designed for seamless
+                      integration with microcontrollers and modern chipsets,
+                      supporting IoT devices, robotics, and other customized
+                      applications for optimized performance and reliability
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -641,12 +712,29 @@
 
                 <div class="faq-item">
                   <h3>
-                    How do your STEM coding robots enhance learning experiences in educational settings?
-
+                    What resources do you offer for STEM education in robotics?
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Our STEM coding robots offer interactive and engaging learning experiences that promote creativity and critical thinking. By allowing students to code and control robots, they gain practical skills in programming, robotics, and engineering principles, which are essential for their future careers.
+                      We provide STEM education robotics kits compatible with
+                      Scratch and Arduino programming, alongside training
+                      packages designed to support primary through high school
+                      curriculums, fostering practical coding and engineering
+                      skills.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>How does your automated crypto trading software work?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Our crypto trading software is designed to optimize
+                      investment decisions through automated trading solutions,
+                      allowing users to maximize their investment potential with
+                      smart algorithms and real-time data analysis.
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -655,24 +743,16 @@
 
                 <div class="faq-item">
                   <h3>
-                    What types of support do you provide for troubleshooting and project development?
+                    What support options are available for troubleshooting and
+                    integrating your solutions?
                   </h3>
                   <div class="faq-content">
                     <p>
-                      We offer a variety of support options, including a dedicated help center, online resources, and expert assistance via email or chat. Whether you encounter technical issues or need advice on project development, our team is here to guide you through the process, ensuring you maximize the potential of our products.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item">
-                  <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                  <div class="faq-content">
-                    <p>
-                      Enim ea facilis quaerat voluptas quidem et dolorem. Quis
-                      et consequatur non sed in suscipit sequi. Distinctio ipsam
-                      dolore et.
+                      We offer comprehensive support for troubleshooting,
+                      project development, and guidance on integrating our
+                      solutions into your systems. Our team is available to
+                      assist clients and partners in achieving seamless
+                      implementation.
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -723,8 +803,8 @@
               >
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
-                <p><b>Cambodia:</b> (+82) 1052858486</p>
-                <p><b>Korea:</b> (+855) 95951517</p>
+                <p><b>Cambodia:</b> (+855) 95951517</p>
+                <p><b>Korea:</b> (+82) 1052858486</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -737,14 +817,15 @@
               >
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>chipsosoft@gmail.com</p>
+                <p>chipcosoft@gmail.com</p>
+                <p>chipcosoft.cambodia@gmail.com</p>
               </div>
             </div>
             <!-- End Info Item -->
           </div>
 
           <div class="row gy-4 mt-1">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4401.098922328457!2d104.90884797551065!3d11.654294242387383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310953bad45e4ee1%3A0x6c33cb023d508017!2sCADT%20-%20Innovation%20Center!5e1!3m2!1sen!2skh!4v1729565776733!5m2!1sen!2skh"
                 frameborder="0"
@@ -756,7 +837,7 @@
             </div>
             <!-- End Google Maps -->
 
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
               <form
                 action="forms/contact.php"
                 method="post"
@@ -817,7 +898,7 @@
                 </div>
               </form>
             </div>
-            <!-- End Contact Form -->
+            End Contact Form -->
           </div>
         </div>
       </section>
@@ -827,27 +908,27 @@
     <footer id="footer" class="footer position-relative light-background">
       <div class="container footer-top">
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
+          <div class="col-lg-4 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
               <span class="sitename">Chipcosoft</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>“Empowering Chips, Powering Tomorrow”</p>
-
-              <p class="mt-3">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-              </p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p><b>Important Infomations</b></p>
+              <p><b>Cambodia:</b> (+855) 95951517</p>
+              <p><b>Korea:</b> (+82) 1052858486</p>
+              <p><b>Email:</b></p>
+              <p>chipcosoft@gmail.com</p>
+              <p>chipcosoft.cambodia@gmail.com</p>
             </div>
             <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href="https://web.facebook.com/profile.php?id=61550227724295"
+                ><i class="bi bi-facebook"></i
+              ></a>
               <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-4 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#home">Home</a></li>
@@ -858,41 +939,16 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-4 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="#embeded">Embedded Software Solutions</a></li>
-              <li><a href="#aisoftware">AI Software Development</a></li>
+              <li><a href="#aisoftware">AI Data Labeling / Annotation</a></li>
               <li><a href="#outsourcing">Software Outsourcing Sevices</a></li>
-              <li><a href="#autocrypto">Automated Crypto Trading Software</a></li>
-              <li><a href="#schematic">Professional Schematic Design</a></li>
-              <li><a href="#pcbprint">High-Quality PCB-Printing Services</a></li>
+              <li>
+                <a href="#autocrypto">Automated Crypto Trading Software</a>
+              </li>
             </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-12 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>
-              Subscribe to our newsletter and receive the latest news about our
-              products and services!
-            </p>
-            <form
-              action="forms/newsletter.php"
-              method="post"
-              class="php-email-form"
-            >
-              <div class="newsletter-form">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">
-                Your subscription request has been sent. Thank you!
-              </div>
-            </form>
           </div>
         </div>
       </div>
@@ -901,7 +957,7 @@
         <p>
           © <span>Copyright</span>
           <strong class="px-1 sitename">Chipcosoft</strong
-          ><span>All Rights Reserved</span>
+          ><span>All Rights Reserved (2023)</span>
         </p>
       </div>
     </footer>
