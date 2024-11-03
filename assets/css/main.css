@@ -243,6 +243,18 @@ h6 {
   --background-color: #ffffff;
 }
 
+/* Hide extra content initially */
+.more-content {
+  display: none;
+}
+
+/* Style for "Read more" link */
+.read-more-content {
+  color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 500;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

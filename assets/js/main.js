@@ -184,3 +184,15 @@
   window.addEventListener("load", navmenuScrollspy);
   document.addEventListener("scroll", navmenuScrollspy);
 })();
+
+function toggleReadMore(element) {
+  const moreContent = element.previousElementSibling;
+  const readMoreLink = element;
+  if (moreContent.style.display === "none" || moreContent.style.display === "") {
+      moreContent.style.display = "inline";
+      readMoreLink.textContent = "read less";
+  } else {
+      moreContent.style.display = "none";
+      readMoreLink.textContent = "...read more";
+  }
+}
