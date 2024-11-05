@@ -885,6 +885,19 @@ section,
   margin-bottom: 0;
 }
 
+.styled-list {
+  font-size: 1rem;      
+  line-height: 1.5;       
+  padding-left: 1.5rem;   
+  color: blue;     
+  text-align: left;    
+}
+
+.styled-list li::marker {
+  color: #ff6600;         
+  font-weight: bold;      
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
