@@ -848,6 +848,7 @@ section,
   section,
   .section {
     scroll-margin-top: 66px;
+    padding-bottom: 0;
   }
 }
 
@@ -903,7 +904,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 75vh;
+  min-height: 50vh;
   position: relative;
   padding: 40px 0 40px 0;
   display: flex;
@@ -1005,12 +1006,12 @@ section,
 
 @media (max-width: 640px) {
   .hero h1 {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 36px;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -1026,8 +1027,8 @@ section,
 --------------------------------------------------------------*/
 .featured-services {
   /* padding: 40px 0; */
-  padding-top: 140px;
-  padding-bottom: 40px;
+  padding-top: 120px;
+  padding-bottom: 20px;
 }
 
 .featured-services .service-item {
