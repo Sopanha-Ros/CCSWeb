@@ -158,7 +158,7 @@ h6 {
 
 @media (max-width: 480px) {
   .header .logo img {
-    max-height: 24px;
+    max-height: 36px;
   }
 
   .header .logo h1 {
@@ -884,6 +884,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  padding: 0 20px;
 }
 
 .styled-list {
@@ -910,7 +911,7 @@ section,
   display: flex;
   align-items: center;
   overflow: hidden;
-  top: 100px;;
+  top: 70px;;
 }
 
 .hero .hero-bg img {
@@ -1027,7 +1028,7 @@ section,
 --------------------------------------------------------------*/
 .featured-services {
   /* padding: 40px 0; */
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 20px;
 }
 
@@ -1406,6 +1407,20 @@ section,
 
 .services .service-item:hover p {
   color: color-mix(in srgb, var(--default-color), transparent 10%);
+}
+
+@media (max-width:450px) {
+  .services .service-item h3 {
+    font-size:18px
+  }
+  .services .service-item .icon {
+    font-size: 22px;
+    width: 62px;
+    height: 62px;
+  }
+  .services .service-item p{
+    font-size: 15px;
+  }
 }
 
 /*--------------------------------------------------------------
