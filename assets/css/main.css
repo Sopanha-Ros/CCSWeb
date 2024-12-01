@@ -1421,6 +1421,13 @@ section,
   .services .service-item p{
     font-size: 15px;
   }
+  .card-body{
+    font-size: 10px;
+  }
+  .about-images .col-lg-6 > .img-fluid:first-of-type{
+    display: none;
+  }
+  
 }
 
 /*--------------------------------------------------------------
