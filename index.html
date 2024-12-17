@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Kantumruy+Pro:ital,wght@0,599;1,599&family=Noto+Sans+Khmer:wght@100..900&family=Odor+Mean+Chey&display=swap" rel="stylesheet">
     <!-- Vendor CSS Files -->
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -65,11 +65,21 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <!-- <li><a href="index.html#hero" class="active">Home</a></li> -->
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#services">Business / Services</a></li>
-            <li><a href="index.html#retail">Events</a></li>
-            <li><a href="index.html#faq">FAQ</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li>
+              <a data-lang-key="nav_about" href="index.html#about">About Us </a>
+            </li>
+            <li>
+              <a data-lang-key="nav_services" href="index.html#services"
+                >Business / Services</a
+              >
+            </li>
+            <li>
+              <a data-lang-key="nav_events" href="index.html#retail">Events</a>
+            </li>
+            <li><a data-lang-key="nav_faq" href="index.html#faq">FAQ</a></li>
+            <li>
+              <a data-lang-key="nav_contact" href="index.html#contact">Contact</a>
+            </li>
             <li>
               <div class="container">
                 <button
@@ -145,10 +155,10 @@
                   <h4 class="title">
                     <a href="#" class="stretched-link">Embedded Software</a>
                   </h4>
-                  <p class="description">
+                  <p data-lang-key="es_description" class="description">
                     We provide microcontrollers and chip firmware/software.
                     design. and develop for various applications, such as IoT,
-                    robotics, and other applications by using modern chipsets.
+                    robotics, and other applications by using modern chipsets,
                     and integrating a customized software solution.
                   </p>
                 </div>
@@ -169,7 +179,7 @@
                   <h4 class="title">
                     <a href="#" class="stretched-link">AI Software</a>
                   </h4>
-                  <p class="description">
+                  <p data-lang-key="as_description" class="description">
                     We provide AI data annotation (data labeling) such as
                     boundary boxes (Bbox), Keypoint, LiDAR 3D, etc. with our
                     good manpower resource to generate high-quality datasets for
@@ -193,7 +203,7 @@
                   <h4 class="title">
                     <a href="#" class="stretched-link">STEM Solution</a>
                   </h4>
-                  <p class="description">
+                  <p data-lang-key="stem_description" class="description">
                     STEM education robotic, which can be used with the Scratch
                     Program and Arduino C program. It is a tool and program from
                     primary to high school. We also provide software and
@@ -212,8 +222,8 @@
       <section id="about" class="features section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>About Us</h2>
-          <p style="text-align: start">
+          <h2 data-lang-key="about_us">About Us</h2>
+          <p data-lang-key="about_us_content" style="text-align: start">
             Chipcosoft (it stands for
             <b>chip</b>-<b>co</b>ntrol-<b>soft</b>ware) was established in 2023
             in the kingdom of Cambodia. The company focuses on embedded software
@@ -238,14 +248,13 @@
                   >
                     <i class="bi bi-globe-central-south-asia"></i>
                     <div>
-                      <h4 class="d-none d-lg-block">Strategic Partnership</h4>
-                      <p>
-                        <!-- We believe collaboration is essential for success. By
-                        partnering with esteemed Korean companies, we facilitate
-                        seamless communication and support. Our talented
-                        Cambodian team combines local expertise with
-                        international standards to deliver exceptional software
-                        solutions throughout Southeast Asia. -->
+                      <h4
+                        data-lang-key="strategic_partnerships"
+                        class="d-none d-lg-block"
+                      >
+                        Strategic Partnership
+                      </h4>
+                      <p data-lang-key="strategic_partnerships_description">
                         Strategic partnership drive success in today&apos;s
                         business landscape. Collaborating with esteemed
                         international companies, our talented Cambodian team
@@ -264,8 +273,10 @@
                   >
                     <i class="bi bi-eye"></i>
                     <div>
-                      <h4 class="d-none d-lg-block">Our Vision</h4>
-                      <p>
+                      <h4 data-lang-key="our_vision" class="d-none d-lg-block">
+                        Our Vision
+                      </h4>
+                      <p data-lang-key="our_vision_description">
                         We aspire to be a leading global software development
                         firm in Southeast Asia, known for groundbreaking
                         solutions that redefine possibilities. Our commitment to
@@ -283,8 +294,10 @@
                   >
                     <i class="bi bi-bullseye"></i>
                     <div>
-                      <h4 class="d-none d-lg-block">Our Mission</h4>
-                      <p>
+                      <h4 data-lang-key="our_mission" class="d-none d-lg-block">
+                        Our Mission
+                      </h4>
+                      <p data-lang-key="our_vision_description">
                         Our mission is to drive innovation across Southeast Asia
                         by delivering tailored software solutions, empowering
                         local talent, and fostering strategic partnerships.
@@ -338,8 +351,8 @@
       <section id="services" class="services section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Business / Service</h2>
-          <p>
+          <h2 data-lang-key="business_service">Business / Service</h2>
+          <p data-lang-key="business_service_desc">
             Comprehensive Software and Hardware Solutions: Empowering Innovation
             through Embedded Systems, AI, and Cutting-Edge Electronics
           </p>
@@ -352,8 +365,8 @@
               <div class="service-item item-cyan position-relative">
                 <i class="bi bi-code-slash icon"></i>
                 <div id="embeded">
-                  <h3>Embedded Software Solution</h3>
-                  <p>
+                  <h3 data-lang-key="ess">Embedded Software Solution</h3>
+                  <p data-lang-key="ess_desc">
                     Our team has over 15 years of hands-on experience in
                     developing firmware and BSP (Board Support Package) system
                     software integration projects for global companies
@@ -385,8 +398,10 @@
               <div class="service-item item-orange position-relative">
                 <i class="bi bi-cpu icon"></i>
                 <div id="aisoftware">
-                  <h3>AI Data labeling/Annotation</h3>
-                  <p>
+                  <h3 data-lang-key="ai_data_labeling">
+                    AI Data labeling/Annotation
+                  </h3>
+                  <p data-lang-key="ai_data_labeling_desc">
                     We deliver high-quality output datasets tailored to specific
                     AI applications, meeting production schedules to fulfill
                     customer demands
@@ -405,8 +420,8 @@
               <div class="service-item item-teal position-relative">
                 <i class="bi bi-person-lines-fill icon"></i>
                 <div id="outsourcing">
-                  <h3>Software Outsourcing Services</h3>
-                  <p>
+                  <h3 data-lang-key="sos">Software Outsourcing Services</h3>
+                  <p data-lang-key="sos_desc">
                     Our technical support team, driven by a passion for
                     technology, specializes in developing automated software
                     testing tools and customized software applications,
@@ -436,8 +451,10 @@
               <div class="service-item item-red position-relative">
                 <i class="bi bi-currency-bitcoin icon"></i>
                 <div id="autocrypto">
-                  <h3>Automated Crypto Trading Software</h3>
-                  <p>
+                  <h3 data-lang-key="acts">
+                    Automated Crypto Trading Software
+                  </h3>
+                  <p data-lang-key="acts_desc">
                     Our digital asset trading platform operates 24/7. We provide
                     predictive and greedy algorithms that automatically trigger
                     low-buy and high-sell actions to maximize trading
@@ -473,11 +490,11 @@
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <h2>
+          <h2 data-lang-key="events" >
             Events <br />
             <span><h4>(Client & Partner Solution)</h4></span>
           </h2>
-          <p>
+          <p data-lang-key="events_desc">
             Customized solutions to empower clients and partners for shared
             growth and success
           </p>
@@ -487,34 +504,34 @@
             <div class="card-body">
               <!-- Content inside the box -->
               <ul class="styled-list m-0">
-                <li>
-                  Provide AI data labelling training at MPTC to officers by
+                <li data-lang-key="events_1" >
+                  Provide AI Data labelling training at MPTC to officers by
                   collaborating with DGCC and testworks (2024, Cambodia)
                 </li>
 
-                <li>
+                <li data-lang-key="events_2" >
                   Initial meeting with a support agent from the Korea Veterans
                   Association, exploring support for Korean SMEs expanding into
                   Cambodia (2024, South Korea).
                 </li>
-                <li>
+                <li data-lang-key="events_3" >
                   Launch of commercial AI software business focused on data
                   annotation services. (2024, Cambodia)
                 </li>
-                <li>
+                <li data-lang-key="events_4" >
                   Official visit to Phnom Penh Teacher Education College (PTEC)
                   to explore STEM educational collaboration (2023, Cambodia).
                 </li>
-                <li>
+                <li data-lang-key="events_5" >
                   Launch of a cryptocurrency auto-trading software project with
                   SoftPlus Technology Co., LTD (2023, South Korea).
                 </li>
-                <li>
+                <li data-lang-key="events_6" >
                   Official visit to the Ministry of Industry, Science,
                   Technology, and Innovation (MISTI) regarding the KOICA CTS
                   program (2023, Cambodia).
                 </li>
-                <li>
+                <li data-lang-key="events_7" >
                   Official visit by Korean business partner Aicontrol.ai to our
                   office at CADT Innovation Center, culminating in the signing
                   of a business MOU (2023, Cambodia).
@@ -535,13 +552,13 @@
             <div
               class="d-flex flex-column justify-content-between content h-100 p-4"
             >
-              <h3>SCM & Crypto/Coin Trading</h3>
+              <h3 data-lang-key="scm_crypto_trading">SCM & Crypto/Coin Trading</h3>
               <ul>
-                <li>
+                <li data-lang-key="scm">
                   <i class="bi bi-diagram-3 flex-shrink-0"></i> Supply Chain
                   Management (SCM) Consultant
                 </li>
-                <li>
+                <li data-lang-key="catss">
                   <i class="bi bi-currency-bitcoin flex-shrink-0"></i>
                   Crypto Auto Trading Software Solution
                 </li>
@@ -552,13 +569,13 @@
             <div
               class="d-flex flex-column justify-content-between content h-100 p-4"
             >
-              <h3>STEM (Science, Technology, Engineer, Math)</h3>
+              <h3 data-lang-key="stem">STEM (Science, Technology, Engineer, Math)</h3>
               <ul>
-                <li>
+                <li data-lang-key="ecr">
                   <i class="bi bi-robot flex-shrink-0"></i> Educational Coding
                   Robotic
                 </li>
-                <li>
+                <li data-lang-key="stem_tt">
                   <i class="bi bi-book flex-shrink-0"></i>
                   STEM Technical Training
                 </li>
@@ -569,16 +586,16 @@
             <div
               class="d-flex flex-column justify-content-between content h-100 p-4"
             >
-              <h3>AI Solution & Tool</h3>
+              <h3 data-lang-key="ai_solution_tool">AI Solution & Tool</h3>
               <ul>
-                <li>
+                <li data-lang-key="ai_data_modeling">
                   <i class="bi bi-bar-chart flex-shrink-0"></i> AI data modeling
                 </li>
-                <li>
+                <li data-lang-key="ai_software_app">
                   <i class="bi bi-cpu flex-shrink-0"></i>
                   AI Software Applications
                 </li>
-                <li>
+                <li data-lang-key="ai_data_labeling_annotation">
                   <i class="bi bi-ui-checks-grid flex-shrink-0"></i> AI Data
                   Labeling (Data Annotation)
                 </li>
@@ -715,14 +732,14 @@
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <p class="who-we-are">What We Stand For</p>
-              <h3>Innovating Tomorrow, Today</h3>
-              <p class="fst-italic">
+              <p data-lang-key="" class="who-we-are">What We Stand For</p>
+              <h3 data-lang-key="innovating_tomorrow_today" >Innovating Tomorrow, Today</h3>
+              <p data-lang-key="chipcosoft" class="fst-italic">
                 <b>Chipcosoft Technology Co., LTD</b>: Pioneers in Software
                 Solutions and Technological Advancement
               </p>
               <ul>
-                <li>
+                <li data-lang-key="tailored_industry_solutions">
                   <i class="bi bi-check-circle"></i>
                   <span
                     ><b>Tailored Industry Solutions:</b> We create tailored
@@ -730,7 +747,7 @@
                     industry transformation across Southeast Asia and beyond.
                   </span>
                 </li>
-                <li>
+                <li data-lang-key="global_collaboration">
                   <i class="bi bi-check-circle"></i>
                   <span
                     ><b>Global Collaboration: </b> Our skilled engineers
@@ -738,7 +755,7 @@
                     globally, delivering high-quality technology solutions.
                   </span>
                 </li>
-                <li>
+                <li data-lang-key="empowering_local_talent">
                   <i class="bi bi-check-circle"></i>
                   <span
                     ><b>Empowering Local Talent: </b> We invest in the growth of
@@ -750,7 +767,7 @@
                 </li>
               </ul>
               <a href="#contact" class="read-more"
-                ><span>Contact Us!</span><i class="bi bi-arrow-right"></i
+                ><span data-lang-key="contact_us">Contact Us!</span><i class="bi bi-arrow-right"></i
               ></a>
             </div>
 
@@ -795,7 +812,7 @@
       <section id="faq" class="faq section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Frequently Asked Questions</h2>
+          <h2 data-lang-key="faq_title">Frequently Asked Questions</h2>
         </div>
         <!-- End Section Title -->
 
@@ -804,9 +821,9 @@
             <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
               <div class="faq-container">
                 <div class="faq-item faq-active">
-                  <h3>Why should you expand your business in Cambodia?</h3>
+                  <h3 data-lang-key="faq_1">Why should you expand your business in Cambodia?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_1_answer">
                       Cambodia is a developing country in Southeast Asia with a
                       high-potential market. It has a young, talented workforce
                       and an open market that actively welcomes foreign
@@ -820,9 +837,9 @@
                 <!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>Why choose Chipcosoft as your business partner?</h3>
+                  <h3 data-lang-key="faq_2">Why choose Chipcosoft as your business partner?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_2_answer">
                       Chipcosoft is an ambitious startup with a globally
                       experienced team, bringing over two decades of
                       international expertise and market insights. Our team is
@@ -835,11 +852,11 @@
                 <!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>
+                  <h3 data-lang-key="faq_3">
                     What types of AI data annotation services do you offer?
                   </h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_3_answer"> 
                       We provide comprehensive data labeling services, including
                       boundary boxes, keypoints, and LiDAR 3D annotations,
                       tailored for various AI applications. Our team ensures
@@ -852,12 +869,12 @@
                 <!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>
+                  <h3 data-lang-key="faq_4">
                     How can your embedded software solutions benefit IoT and
                     robotics applications?
                   </h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_4_answer">
                       Our embedded software solutions are designed for seamless
                       integration with microcontrollers and modern chipsets,
                       supporting IoT devices, robotics, and other customized
@@ -869,11 +886,11 @@
                 <!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>
+                  <h3 data-lang-key="faq_5">
                     What resources do you offer for STEM education in robotics?
                   </h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_5_answer">
                       We provide STEM education robotics kits compatible with
                       Scratch and Arduino programming, alongside training
                       packages designed to support primary through high school
@@ -886,9 +903,9 @@
                 <!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>How does your automated crypto trading software work?</h3>
+                  <h3 data-lang-key="faq_6">How does your automated crypto trading software work?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_6_answer">
                       Our crypto trading software is designed to optimize
                       investment decisions through automated trading solutions,
                       allowing users to maximize their investment potential with
@@ -900,12 +917,12 @@
                 <!-- End Faq item-->
 
                 <div class="faq-item">
-                  <h3>
+                  <h3 data-lang-key="faq_7">
                     What support options are available for troubleshooting and
                     integrating your solutions?
                   </h3>
                   <div class="faq-content">
-                    <p>
+                    <p data-lang-key="faq_7_answer">
                       We offer comprehensive support for troubleshooting,
                       project development, and guidance on integrating our
                       solutions into your systems. Our team is available to
@@ -927,8 +944,8 @@
       <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>
+          <h2 data-lang-key="contact">Contact</h2>
+          <p data-lang-key="contact_info">
             We'd love to hear from you! Whether you have questions, need
             support, or want to discuss a project, feel free to reach out.
           </p>
@@ -944,7 +961,7 @@
                 data-aos-delay="200"
               >
                 <i class="bi bi-geo-alt"></i>
-                <h3>Address</h3>
+                <h3 data-lang-key="address">Address</h3>
                 <p class="mx-4">
                   CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek
                   Leap, <br />National Road 6, Phnom Penh, Cambodia
@@ -960,9 +977,9 @@
                 data-aos-delay="300"
               >
                 <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
-                <p><b>Cambodia:</b> (+855) 95951517</p>
-                <p><b>Korea:</b> (+82) 1052858486</p>
+                <h3 data-lang-key="call_us">Call Us</h3>
+                <p><b data-lang-key="phone_cambodia">Cambodia:</b> (+855) 95951517</p>
+                <p><b data-lang-key="phone_korea">Korea:</b> (+82) 1052858486</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -974,7 +991,7 @@
                 data-aos-delay="400"
               >
                 <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
+                <h3 data-lang-key="email_us">Email Us</h3>
                 <p>chipcosoft@gmail.com</p>
                 <p>chipcosoft.cambodia@gmail.com</p>
               </div>
@@ -1068,13 +1085,13 @@
         <div class="row gy-4">
           <div class="col-lg-4 footer-about">
             <div href="" class="logo d-flex align-items-center">
-              <span class="sitename">Contact Information</span>
+              <span data-lang-key="contact_information" class="sitename">Contact Information</span>
             </div>
             <div class="footer-contact pt-3">
               <p><b>Biz Registration No.</b>1000266751</p>
-              <p><b>Cambodia:</b> (+855) 95951517</p>
-              <p><b>Korea:</b> (+82) 1052858486</p>
-              <p><b>Email:</b></p>
+              <p><b data-lang-key="phone_cambodia">Cambodia:</b> (+855) 95951517</p>
+              <p><b data-lang-key="phone_korea">Korea:</b> (+82) 1052858486</p>
+              <p><b data-lang-key="email">Email:</b></p>
               <p>chipcosoft@gmail.com</p>
               <p>chipcosoft.cambodia@gmail.com</p>
             </div>
@@ -1089,18 +1106,18 @@
           </div>
 
           <div class="col-lg-4 footer-links">
-            <h4>Useful Links</h4>
+            <h4 data-lang-key="useful_links">Useful Links</h4>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#retail">Events</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><a data-lang-key="nav_home" href="#home">Home</a></li>
+              <li><a data-lang-key="nav_about" href="#about">About Us</a></li>
+              <li><a data-lang-key="nav_services" href="#services">Business / Services</a></li>
+              <li><a data-lang-key="nav_events" href="#retail">Events</a></li>
+              <li><a data-lang-key="nav_faq" href="#faq">FAQ</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 footer-links">
-            <h4>Our Services</h4>
+            <h4 data-lang-key="our_services">Our Services</h4>
             <ul>
               <li><a href="#embeded">Embedded Software Solution</a></li>
               <li><a href="#aisoftware">AI Data Labeling / Annotation</a></li>

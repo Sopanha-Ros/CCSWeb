@@ -1,10 +1,10 @@
 /* Fonts */
 :root {
-  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+  --default-font: "Roboto","Noto Sans Khmer", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Nunito", sans-serif;
-  --nav-font: "Inter", sans-serif;
+  --heading-font: "Nunito", sans-serif,"Noto Sans Khmer";
+  --nav-font: "Inter", sans-serif,"Noto Sans Khmer";
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -211,6 +211,7 @@ h6 {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
+
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
@@ -280,7 +281,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 16px;
+    font-size: 17px;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -885,10 +886,11 @@ section,
 .section-title p {
   margin-bottom: 0;
   padding: 0 20px;
+  font-size: 18px;
 }
 
 .styled-list {
-  font-size: 1rem;      
+  font-size: 1.05rem;      
   line-height: 1.5;       
   padding-left: 1.5rem;   
   color: blue;     
@@ -1072,7 +1074,7 @@ section,
 }
 
 .featured-services .service-item .description {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .featured-services .service-item:hover .icon {
@@ -1104,6 +1106,8 @@ section,
 .about .content ul {
   list-style: none;
   padding: 0;
+  padding-right: 30px;
+  font-size: 17px;
 }
 
 .about .content ul li {
@@ -1237,7 +1241,7 @@ section,
 }
 
 .features .nav-link p {
-  font-size: 15px;
+  font-size: 16px;
   margin: 0;
 }
 

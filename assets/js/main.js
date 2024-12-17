@@ -188,11 +188,44 @@
 function toggleReadMore(element) {
   const moreContent = element.previousElementSibling;
   const readMoreLink = element;
-  if (moreContent.style.display === "none" || moreContent.style.display === "") {
-      moreContent.style.display = "inline";
-      readMoreLink.textContent = "read less";
+  if (
+    moreContent.style.display === "none" ||
+    moreContent.style.display === ""
+  ) {
+    moreContent.style.display = "inline";
+    readMoreLink.textContent = "read less";
   } else {
-      moreContent.style.display = "none";
-      readMoreLink.textContent = "...read more";
+    moreContent.style.display = "none";
+    readMoreLink.textContent = "...read more";
+  }
+}
+
+async function loadTranslations() {
+  try {
+    const reponse = await fetch("/assets/js/translate.json");
+    const data = await reponse.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching the JSON file:', error);
+    return null; // Handle errors gracefully
+  }
+}
+
+async function switchLanguage(language) {
+  let translation = await loadTranslations();
+  if (translation) {
+    // Change the text for elements with the `data-lang-key` attribute
+    document.querySelectorAll('[data-lang-key]').forEach((element) => {
+      const key = element.getAttribute('data-lang-key');
+      if (translation[language] && translation[language][key]) {
+        element.innerHTML = translation[language][key];
+      }
+    });
+
+    // Set the active class on the language buttons
+    document.querySelectorAll('.btn-lang').forEach((btn) => {
+      btn.classList.remove('active'); // Remove active class from all buttons
+    });
+    document.querySelector(`.btn-lang[data-lang="${language}"]`).classList.add('active'); // Add active class to the clicked button
   }
 }
