@@ -155,13 +155,13 @@
 
     "call_us": "Call Us",
 
-    "phone_cambodia": "Cambodia: (+82) 1052858486",
+    "phone_cambodia": "<b>Cambodia:</b> (+855) 95951517",
 
-    "phone_korea": "Korea: (+855) 95951517",
+    "phone_korea": "<b>Korea:</b> (+82) 1052858486",
 
     "email_us": "Email Us",
 
-    "contact_information":"Contact",
+    "contact_information":"Contact Information",
 
 
     "email_contact": "chipsosoft@gmail.com",
@@ -185,12 +185,15 @@
 
     "newsletter": "Our Newsletter",
 
-    "subscribe_newsletter": "Subscribe to our newsletter and receive the latest news about our products and services!"
+    "subscribe_newsletter": "Subscribe to our newsletter and receive the latest news about our products and services!",
+
+    "copyright": "<span>Copyright</span> &#169; 2023 <strong class=\"sitename\"> Chipcosoft</strong>. <span>All rights reserved</span>"
+
   },
 
   "kh": {
     "nav_home": "ទំព័រដើម",
-    "nav_about": "អំពីពួកយើង",
+    "nav_about": "អំពីក្រុមហ៊ុន",
     "nav_services": "អាជីវកម្ម / សេវាកម្ម",
     "nav_events": "ព្រឹត្តិការណ៍",
     "retail": "ហាង",
@@ -202,7 +205,7 @@
     "hero_title": "<span>Embedded & AI</span> Software Solution",
     "hero_description": "IoT/System Modules, System-on-Chip Software, AI Solution",
 
-    "es_description": "យើងផ្តល់ microcontrollers និង chip firmware/software ។ការរចនា។ និងអភិវឌ្ឍសម្រាប់កម្មវិធីផ្សេងៗដូចជា IoT,មនុស្សយន្ត និងកម្មវិធីផ្សេងទៀតដោយប្រើបន្ទះឈីបទំនើប។និងការរួមបញ្ចូលដំណោះស្រាយកម្មវិធីដែលបានប្ដូរតាមបំណង។",
+    "es_description": "យើងផ្តល់ microcontrollers និង chip firmware/software ។​ ការរចនានិងអភិវឌ្ឍសម្រាប់កម្មវិធីផ្សេងៗដូចជា IoT,មនុស្សយន្ត និងកម្មវិធីផ្សេងទៀតដោយប្រើបន្ទះឈីបទំនើប។និងការរួមបញ្ចូលដំណោះស្រាយកម្មវិធីដែលបានប្ដូរតាមបំណង។",
     "as_description": "យើងផ្តល់ចំណារពន្យល់អំពីទិន្នន័យ AI (ការដាក់ស្លាកទិន្នន័យ) ដូចជា boundary boxes (Bbox), Keypoints, LiDAR 3D ។ល។ ជាមួយនឹងធនធានមនុស្សដ៏ល្អរបស់យើង ដើម្បីបង្កើតសំណុំទិន្នន័យដែលមានគុណភាពខ្ពស់សម្រាប់កម្មវិធី AI ផ្សេងៗគ្នា។។",
     "stem_description": "មនុស្សយន្តអប់រំ STEM ដែលអាចប្រើបានជាមួយកម្មវិធី Scratch និងកម្មវិធី Arduino C ។ វា​ជា​ឧបករណ៍ និង​កម្មវិធី​តាំងពី​បឋមសិក្សា​ដល់​វិទ្យាល័យ។ យើងក៏ផ្តល់សេវាកម្មវិធី និងកញ្ចប់បណ្តុះបណ្តាលផងដែរ។",
 
@@ -212,8 +215,8 @@
     "hardware": "ការរចនាគូសសម្ភារៈ និងសេវាកម្មបោះពុម្ព PCB ដែលមានគុណភាពខ្ពស់",
     "retails": "រូបករណ៍ កូដ STEM និងក្រុមហ៊ុន Embedded សម្រាប់គុណភាពការសិក្សាដ៏ល្អឥតខ្ចោះ",
 
-    "about_us": "អំពីពួកយើង",
-    "about_us_content": "Chipcosoft (វាតំណាងឱ្យ <b>chip</b>-<b>co</b>ntrol-<b>soft</b>ware) ត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2023 នៅក្នុងព្រះរាជាណាចក្រកម្ពុជា។ ក្រុមហ៊ុនផ្តោតលើដំណោះស្រាយកម្មវិធីបង្កប់ដែលប្រើប្រព័ន្ធទំនើបនៅលើម៉ូឌុល (SoM) និងប្រព័ន្ធនៅលើបន្ទះឈីប (SoC) សម្រាប់ IoT និងកម្មវិធីមនុស្សយន្តឧស្សាហកម្ម។ ដូចគ្នានេះផងដែរ អាជីវកម្មនាពេលថ្មីៗនេះរបស់យើងផ្តោតជាសំខាន់លើដំណោះស្រាយ AI (សេវាកម្មកំណត់ចំណាំទិន្នន័យ) និងសហការជាមួយដៃគូសកលរបស់យើងដើម្បីណែនាំដំណោះស្រាយថ្មី និងបើកទីផ្សារថ្មីនៅក្នុងតំបន់អាស៊ីខាងត្បូង។",
+    "about_us": "អំពីក្រុមហ៊ុន",
+    "about_us_content": "Chipcosoft (តំណាងដោយ <b>chip</b>-<b>co</b>ntrol-<b>soft</b>ware) ត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2023 នៅក្នុងព្រះរាជាណាចក្រកម្ពុជា។ ក្រុមហ៊ុនផ្តោតលើដំណោះស្រាយកម្មវិធីបង្កប់ដែលប្រើប្រព័ន្ធទំនើបនៅលើម៉ូឌុល (SoM) និងប្រព័ន្ធនៅលើបន្ទះឈីប (SoC) សម្រាប់ IoT និងកម្មវិធីមនុស្សយន្តឧស្សាហកម្ម។ ដូចគ្នានេះផងដែរ អាជីវកម្មនាពេលថ្មីៗនេះរបស់យើងផ្តោតជាសំខាន់លើដំណោះស្រាយ AI (សេវាកម្មកំណត់ចំណាំទិន្នន័យ) និងសហការជាមួយដៃគូសកលរបស់យើងដើម្បីណែនាំដំណោះស្រាយថ្មី និងបើកទីផ្សារថ្មីនៅក្នុងតំបន់អាស៊ីខាងត្បូង។",
 
     "strategic_partnerships":"ដៃគូយុទ្ធសាស្ត្រ",
     "strategic_partnerships_description": "ភាពជាដៃគូយុទ្ធសាស្ត្រជំរុញឱ្យទទួលបានជោគជ័យក្នុងទិដ្ឋភាពអាជីវកម្មនាពេលបច្ចុប្បន្ននេះ។ ដោយសហការជាមួយក្រុមហ៊ុនអន្តរជាតិដ៏គួរឱ្យគោរព ក្រុមការងារកម្ពុជាដ៏មានទេពកោសល្យរបស់យើងបានរួមបញ្ចូលគ្នានូវចំណេះដឹងក្នុងស្រុកជាមួយនឹងស្តង់ដារពិភពលោក ដើម្បីផ្តល់ជូននូវដំណោះស្រាយកម្មវិធីពិសេសៗនៅទូទាំងអាស៊ីអាគ្នេយ៍។",
@@ -342,16 +345,16 @@
     "address":"អាស័យដ្ឋាន",
     "address_info": "CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek Leap, National Road 6, Phnom Penh, Cambodia",
 
-    "call_us": "ទាក់ទងមកពួកយើង",
+    "call_us": "ទាក់ទងតាមរយៈ",
 
     "contact_information":"ព័ត៌មានទំនាក់ទំនង",
 
-    "phone_cambodia": "កម្ពុជា:",
+    "phone_cambodia": "<b>កម្ពុជា:</b> (+855) 95951517",
 
-    "phone_korea": "កូរ៉េ:",
+    "phone_korea": "<b>កូរ៉េ:</b> (+82) 1052858486",
 
     "email": "អ៊ីមែល:",
-    "email_us": "ផ្ញើអ៊ីមែលមកពួកយើង:",
+    "email_us": "ផ្ញើអ៊ីមែលតាមរយៈ",
 
     "useful_links": "តំណភ្ជាប់មានប្រយោជន៍",
 
@@ -363,7 +366,8 @@
 
     "instagram": "Instagram",
 
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
 
+    "copyright": "© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Chipcosoft ឆ្នាំ​២០២៣"
 }
 }
