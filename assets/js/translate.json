@@ -16,64 +16,63 @@
     "as_description": "We provide AI data annotation (data labeling) such as boundary boxes (Bbox), Keypoint, LiDAR 3D, etc. with our good manpower resource to generate high-quality datasets for different AI applications.",
     "stem_description": "STEM education robotic, which can be used with the Scratch Program and Arduino C program. It is a tool and program from primary to high school. We also provide software and training package service.",
 
-
     "get_started": "Get Started",
 
     "software": "Comprehensive Embedded Software Solutions, AI Development, and Software Outsourcing",
     "hardware": "Expert Schematic Design and High-Quality PCB Printing Services",
     "retails": "Top STEM Coding Robots and Embedded Boards for Educational Excellence",
 
-    "about_us": "About US",
+    "about_us": "About Company",
     "about_us_content": "Chipcosoft (it stands for <b>chip</b>-<b>co</b>ntrol-<b>soft</b>ware) was established in 2023 in the kingdom of Cambodia. The company focuses on embedded software solutions that use cutting-edge System on Module (SoM) and System on Chip (SoC) for IoT and industry robotic applications. Also, our recent business is mainly focused on AI solutions (Data Annotation Service) and collaborating with our global partner to introduce new solutions and open new markets in South Asia.",
 
-    "strategic_partnerships":"Strategic Partnership",
+    "strategic_partnerships": "Strategic Partnership",
     "strategic_partnerships_description": "Strategic partnership drive success in today&apos;s business landscape. Collaborating with esteemed international companies, our talented Cambodian team combines local knowledge with global standards to deliver exceptional software solutions across Southeast Asia.",
 
-    "our_vision":"Our Vision",
+    "our_vision": "Our Vision",
     "our_vision_description": "We aspire to be a leading global software development firm in Southeast Asia, known for groundbreaking solutions that redefine possibilities. Our commitment to innovation enables businesses to gain a competitive edge in the market.",
 
-    "our_mission":"Our Mission",
+    "our_mission": "Our Mission",
     "our_mission_description": "Our mission is to drive innovation across Southeast Asia by delivering tailored software solutions, empowering local talent, and fostering strategic partnerships. Together, we enable businesses to thrive in a rapidly evolving tech landscape.",
 
-    "business_service":"Business / Services",
+    "business_service": "Business / Services",
     "business_service_desc": "Comprehensive Software and Hardware Solutions: Empowering Innovation through Embedded Systems, AI, and Cutting-Edge Electronics",
 
     "services": "Comprehensive Software and Hardware Solutions: Empowering Innovation through Embedded Systems, AI, and Cutting-Edge Electronics",
 
-    "ess":"Embedded Software Solution",
-    "ess_desc":"Our team has over 15 years of hands-on experience in developing firmware and BSP (Board Support Package) system software integration projects for global companies <span class=\"more-content\"> such as ASUS, Samsung Electronics, Samsung Semiconductor, LG Automotive, and Hyundai. We have supported various applications, including smartphones, set-top boxes, multimedia devices, automotive systems, tablets, military drones, LiDAR safety systems, and more. </span><span class=\"read-more-content\" onclick=\"toggleReadMore(this)\">...read more</span>",
+    "ess": "Embedded Software Solution",
+    "ess_desc": "Our team has over 15 years of hands-on experience in developing firmware and BSP (Board Support Package) system software integration projects for global companies <span class=\"more-content\"> such as ASUS, Samsung Electronics, Samsung Semiconductor, LG Automotive, and Hyundai. We have supported various applications, including smartphones, set-top boxes, multimedia devices, automotive systems, tablets, military drones, LiDAR safety systems, and more. </span><span class=\"read-more-content\" onclick=\"toggleReadMore(this)\">...read more</span>",
 
-    "ai_data_labeling":"AI Data labeling/Annotation",
+    "ai_data_labeling": "AI Data labeling/Annotation",
     "ai_data_labeling_desc": "We deliver high-quality output datasets tailored to specific AI applications, meeting production schedules to fulfill customer demands",
 
-    "sos":"Software Outsourcing Services",
-    "sos_desc":"Our technical support team, driven by a passion for technology, specializes in developing automated software testing tools and customized software applications, including web <span class=\"more-content\"> and PC-based solutions. We also offer comprehensive technical training services to ensure our clients are fully equipped to utilize our solutions effectively. </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
+    "sos": "Software Outsourcing Services",
+    "sos_desc": "Our technical support team, driven by a passion for technology, specializes in developing automated software testing tools and customized software applications, including web <span class=\"more-content\"> and PC-based solutions. We also offer comprehensive technical training services to ensure our clients are fully equipped to utilize our solutions effectively. </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
 
-    "acts":"Automated Crypto Trading Software",
-    "acts_desc":"Our digital asset trading platform operates 24/7. We provide predictive and greedy algorithms that automatically trigger low-buy and high-sell actions to maximize trading <span class=\"more-content\"> profits with our automated software trading solution. Our platform is designed to be user-friendly, allowing traders of all experience levels to benefit from automated strategies without needing extensive trading knowledge. </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
+    "acts": "Automated Crypto Trading Software",
+    "acts_desc": "Our digital asset trading platform operates 24/7. We provide predictive and greedy algorithms that automatically trigger low-buy and high-sell actions to maximize trading <span class=\"more-content\"> profits with our automated software trading solution. Our platform is designed to be user-friendly, allowing traders of all experience levels to benefit from automated strategies without needing extensive trading knowledge. </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
 
-    "events":"Events <br /> <span><h4>(Client & Partner Solution)</h4></span>",
-    "events_desc":"Customized solutions to empower clients and partners for shared growth and success",
-    "events_1":"Provide AI data labelling training at MPTC to officers by collaborating with DGCC and testworks (2024, Cambodia)",
-    "events_2":"Initial meeting with a support agent from the Korea Veterans Association, exploring support for Korean SMEs expanding into Cambodia (2024, South Korea).",
-    "events_3":"Launch of commercial AI software business focused on data annotation services. (2024, Cambodia)",
-    "events_4":"Official visit to Phnom Penh Teacher Education College (PTEC) to explore STEM educational collaboration (2023, Cambodia).",
-    "events_5":"Launch of a cryptocurrency auto-trading software project with SoftPlus Technology Co., LTD (2023, South Korea).",
-    "events_6":"Official visit to the Ministry of Industry, Science, Technology, and Innovation (MISTI) regarding the KOICA CTS program (2023, Cambodia).",
-    "events_7":"Official visit by Korean business partner Aicontrol.ai to our office at CADT Innovation Center, culminating in the signing of a business MOU (2023, Cambodia).",
+    "events": "Events <br /> <span><h4>(Client & Partner Solution)</h4></span>",
+    "events_desc": "Customized solutions to empower clients and partners for shared growth and success",
+    "events_1": "Provide AI data labelling training at MPTC to officers by collaborating with DGCC and testworks (2024, Cambodia)",
+    "events_2": "Initial meeting with a support agent from the Korea Veterans Association, exploring support for Korean SMEs expanding into Cambodia (2024, South Korea).",
+    "events_3": "Launch of commercial AI software business focused on data annotation services. (2024, Cambodia)",
+    "events_4": "Official visit to Phnom Penh Teacher Education College (PTEC) to explore STEM educational collaboration (2023, Cambodia).",
+    "events_5": "Launch of a cryptocurrency auto-trading software project with SoftPlus Technology Co., LTD (2023, South Korea).",
+    "events_6": "Official visit to the Ministry of Industry, Science, Technology, and Innovation (MISTI) regarding the KOICA CTS program (2023, Cambodia).",
+    "events_7": "Official visit by Korean business partner Aicontrol.ai to our office at CADT Innovation Center, culminating in the signing of a business MOU (2023, Cambodia).",
 
-    "scm_crypto_trading":"SCM & ការជួញដូរ Crypto/Coin",
-    "scm":"<i class=\"bi bi-diagram-3 flex-shrink-0\"></i> Supply Chain Management (SCM) Consultant",
-    "catss":"<i class=\"bi bi-currency-bitcoin flex-shrink-0\"></i> Crypto Auto Trading Software Solution",
+    "scm_crypto_trading": "SCM & ការជួញដូរ Crypto/Coin",
+    "scm": "<i class=\"bi bi-diagram-3 flex-shrink-0\"></i> Supply Chain Management (SCM) Consultant",
+    "catss": "<i class=\"bi bi-currency-bitcoin flex-shrink-0\"></i> Crypto Auto Trading Software Solution",
 
-    "stem":"STEM (Science, Technology, Engineer, Math)",
-    "ecr":"<i class=\"bi bi-robot flex-shrink-0\"></i>Educational Coding Robotic",
-    "stem_tt":"<i class=\"bi bi-book flex-shrink-0\"></i>STEM Technical Training",
+    "stem": "STEM (Science, Technology, Engineer, Math)",
+    "ecr": "<i class=\"bi bi-robot flex-shrink-0\"></i>Educational Coding Robotic",
+    "stem_tt": "<i class=\"bi bi-book flex-shrink-0\"></i>STEM Technical Training",
 
-    "ai_solution_tool":"AI Solution & Tool",
-    "ai_data_modeling":"<i class=\"bi bi-bar-chart flex-shrink-0\"></i> AI data modeling",
-    "ai_software_app":"<i class=\"bi bi-cpu flex-shrink-0\"></i> AI Software Applications",
-    "ai_data_labeling_annotation":"<i class=\"bi bi-ui-checks-grid flex-shrink-0\"></i> AI Data Labeling (Data Annotation)",
+    "ai_solution_tool": "AI Solution & Tool",
+    "ai_data_modeling": "<i class=\"bi bi-bar-chart flex-shrink-0\"></i> AI data modeling",
+    "ai_software_app": "<i class=\"bi bi-cpu flex-shrink-0\"></i> AI Software Applications",
+    "ai_data_labeling_annotation": "<i class=\"bi bi-ui-checks-grid flex-shrink-0\"></i> AI Data Labeling (Data Annotation)",
 
     "embedded_software_solutions": "Custom Microcontroller Firmware and System Integration",
 
@@ -125,32 +124,32 @@
 
     "faq_title": "Frequently Asked Questions",
 
-    "faq_1":"Why should you expand your business in Cambodia?",
-    "faq_1_answer":"Cambodia is a developing country in Southeast Asia with a high-potential market. It has a young, talented workforce and an open market that actively welcomes foreign companies. In recent years, the Cambodian government has encouraged foreign direct investment (FDI) through supportive policies.",
+    "faq_1": "Why should you expand your business in Cambodia?",
+    "faq_1_answer": "Cambodia is a developing country in Southeast Asia with a high-potential market. It has a young, talented workforce and an open market that actively welcomes foreign companies. In recent years, the Cambodian government has encouraged foreign direct investment (FDI) through supportive policies.",
 
-    "faq_2":"Why choose Chipcosoft as your business partner?",
-    "faq_2_answer":"Chipcosoft is an ambitious startup with a globally experienced team, bringing over two decades of international expertise and market insights. Our team is dedicated, driven, and well-prepared to support your business growth.",
+    "faq_2": "Why choose Chipcosoft as your business partner?",
+    "faq_2_answer": "Chipcosoft is an ambitious startup with a globally experienced team, bringing over two decades of international expertise and market insights. Our team is dedicated, driven, and well-prepared to support your business growth.",
 
-    "faq_3":"What types of AI data annotation services do you offer?",
-    "faq_3_answer":"We provide comprehensive data labeling services, including boundary boxes, keypoints, and LiDAR 3D annotations, tailored for various AI applications. Our team ensures high-quality datasets to support effective AI model training.",
+    "faq_3": "What types of AI data annotation services do you offer?",
+    "faq_3_answer": "We provide comprehensive data labeling services, including boundary boxes, keypoints, and LiDAR 3D annotations, tailored for various AI applications. Our team ensures high-quality datasets to support effective AI model training.",
 
-    "faq_4":"How can your embedded software solutions benefit IoT and robotics applications?",
-    "faq_4_answer":"Our embedded software solutions are designed for seamless integration with microcontrollers and modern chipsets, supporting IoT devices, robotics, and other customized applications for optimized performance and reliability",
+    "faq_4": "How can your embedded software solutions benefit IoT and robotics applications?",
+    "faq_4_answer": "Our embedded software solutions are designed for seamless integration with microcontrollers and modern chipsets, supporting IoT devices, robotics, and other customized applications for optimized performance and reliability",
 
-    "faq_5":"What resources do you offer for STEM education in robotics?",
-    "faq_5_answer":"We provide STEM education robotics kits compatible with Scratch and Arduino programming, alongside training packages designed to support primary through high school curriculums, fostering practical coding and engineering skills.",
+    "faq_5": "What resources do you offer for STEM education in robotics?",
+    "faq_5_answer": "We provide STEM education robotics kits compatible with Scratch and Arduino programming, alongside training packages designed to support primary through high school curriculums, fostering practical coding and engineering skills.",
 
-    "faq_6":"How does your automated crypto trading software work?",
-    "faq_6_answer":"Our crypto trading software is designed to optimize investment decisions through automated trading solutions, allowing users to maximize their investment potential with smart algorithms and real-time data analysis.",
+    "faq_6": "How does your automated crypto trading software work?",
+    "faq_6_answer": "Our crypto trading software is designed to optimize investment decisions through automated trading solutions, allowing users to maximize their investment potential with smart algorithms and real-time data analysis.",
 
-    "faq_7":"What support options are available for troubleshooting and integrating your solutions?",
-    "faq_7_answer":"We offer comprehensive support for troubleshooting, project development, and guidance on integrating our solutions into your systems. Our team is available to assist clients and partners in achieving seamless implementation.",
+    "faq_7": "What support options are available for troubleshooting and integrating your solutions?",
+    "faq_7_answer": "We offer comprehensive support for troubleshooting, project development, and guidance on integrating our solutions into your systems. Our team is available to assist clients and partners in achieving seamless implementation.",
 
-    "contact":"Contact",
+    "contact": "Contact",
 
     "contact_info": "We'd love to hear from you! Whether you have questions, need support, or want to discuss a project, feel free to reach out.",
 
-    "address":"Address",
+    "address": "Address",
     "address_info": "CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek Leap, National Road 6, Phnom Penh, Cambodia",
 
     "call_us": "Call Us",
@@ -161,8 +160,7 @@
 
     "email_us": "Email Us",
 
-    "contact_information":"Contact Information",
-
+    "contact_information": "Contact Information",
 
     "email_contact": "chipsosoft@gmail.com",
 
@@ -188,7 +186,6 @@
     "subscribe_newsletter": "Subscribe to our newsletter and receive the latest news about our products and services!",
 
     "copyright": "<span>Copyright</span> &#169; 2023 <strong class=\"sitename\"> Chipcosoft</strong>. <span>All rights reserved</span>"
-
   },
 
   "kh": {
@@ -218,54 +215,54 @@
     "about_us": "អំពីក្រុមហ៊ុន",
     "about_us_content": "Chipcosoft (តំណាងដោយ <b>chip</b>-<b>co</b>ntrol-<b>soft</b>ware) ត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2023 នៅក្នុងព្រះរាជាណាចក្រកម្ពុជា។ ក្រុមហ៊ុនផ្តោតលើដំណោះស្រាយកម្មវិធីបង្កប់ដែលប្រើប្រព័ន្ធទំនើបនៅលើម៉ូឌុល (SoM) និងប្រព័ន្ធនៅលើបន្ទះឈីប (SoC) សម្រាប់ IoT និងកម្មវិធីមនុស្សយន្តឧស្សាហកម្ម។ ដូចគ្នានេះផងដែរ អាជីវកម្មនាពេលថ្មីៗនេះរបស់យើងផ្តោតជាសំខាន់លើដំណោះស្រាយ AI (សេវាកម្មកំណត់ចំណាំទិន្នន័យ) និងសហការជាមួយដៃគូសកលរបស់យើងដើម្បីណែនាំដំណោះស្រាយថ្មី និងបើកទីផ្សារថ្មីនៅក្នុងតំបន់អាស៊ីខាងត្បូង។",
 
-    "strategic_partnerships":"ដៃគូយុទ្ធសាស្ត្រ",
+    "strategic_partnerships": "ដៃគូយុទ្ធសាស្ត្រ",
     "strategic_partnerships_description": "ភាពជាដៃគូយុទ្ធសាស្ត្រជំរុញឱ្យទទួលបានជោគជ័យក្នុងទិដ្ឋភាពអាជីវកម្មនាពេលបច្ចុប្បន្ននេះ។ ដោយសហការជាមួយក្រុមហ៊ុនអន្តរជាតិដ៏គួរឱ្យគោរព ក្រុមការងារកម្ពុជាដ៏មានទេពកោសល្យរបស់យើងបានរួមបញ្ចូលគ្នានូវចំណេះដឹងក្នុងស្រុកជាមួយនឹងស្តង់ដារពិភពលោក ដើម្បីផ្តល់ជូននូវដំណោះស្រាយកម្មវិធីពិសេសៗនៅទូទាំងអាស៊ីអាគ្នេយ៍។",
 
-    "our_vision":"ចក្ខុវិស័យ",
+    "our_vision": "ចក្ខុវិស័យ",
     "our_vision_description": "យើងស្រមៃចង់ក្លាយជាក្រុមហ៊ុនអភិវឌ្ឍកម្មវិធីដែលមានប្រសិទ្ធភាពនៅទូទាំងអាស៊ីអាគ្នេយ៍ដែលគេស្គាល់ចំពោះដំណោះស្រាយដែលអភិវឌ្ឍន៍គន្លងអាចប្រើបាន។ ការប្តេជ្ញារបស់យើងដើម្បីអភិវឌ្ឍន៍និងបង្កើតដំណោះស្រាយថ្មីៗអាចធានាបានអាជីវកម្មយើងត្រូវមានចំណាត់ថ្នាក់ល្អបំផុតនៅលើទីផ្សារ។",
 
     "our_mission": "បេសកកម្ម",
     "our_mission_description": "បេសកកម្មរបស់យើងគឺដើម្បីជំរុញការអភិវឌ្ឍន៍ទូទាំងអាស៊ីអាគ្នេយ៍ដោយផ្ដល់ដំណោះស្រាយកម្មវិធីដែលបន្ថែមការពាក់ព័ន្ធរបស់មនុស្សជាតិកម្ពុជា និងការផ្សារភ្ជាប់យ៉ាងជិតស្និទ្ធ។ នៅក្នុងកិច្ចសហការនេះយើងអាចធ្វើអោយអាជីវកម្មក្លាយជាអ្នកឈានមុខនៅក្នុងបរិយាកាសបច្ចេកវិទ្យាដែលមានការផ្លាស់ប្តូរយ៉ាងឆាប់រហ័ស។",
 
-    "business_service":"អាជីវកម្ម / សេវាកម្ម",
-    "business_service_desc":"ដំណោះស្រាយ Software និង Hardware យ៉ាងទូលំទូលាយ៖ ការពង្រឹងការច្នៃប្រឌិតតាមរយៈប្រព័ន្ធបង្កប់ AI និងអេឡិចត្រូនិកទំនើប",
+    "business_service": "អាជីវកម្ម / សេវាកម្ម",
+    "business_service_desc": "ដំណោះស្រាយ Software និង Hardware យ៉ាងទូលំទូលាយ៖ ការពង្រឹងការច្នៃប្រឌិតតាមរយៈប្រព័ន្ធបង្កប់ AI និងអេឡិចត្រូនិកទំនើប",
 
     "services": "ដំណោះស្រាយកម្មវិធី និងឧបករណ៍គុណភាពខ្ពស់: ដំណោះស្រាយកុំព្យូទ័រច្នៃប្រឌិតដោយផ្តល់អត្ថប្រយោជន៍មួយជាច្រើនក្នុងប្រព័ន្ធរួមផ្សំ, AI និងអេឡិចត្រូនិកថ្មីៗ",
 
-    "ess":"Embedded Software Solution",
-    "ess_desc":"ក្រុមរបស់យើងមានបទពិសោធន៍ជាង 15 ឆ្នាំក្នុងការបង្កើតកម្មវិធីបង្កប់ និងគម្រោងការរួមបញ្ចូលកម្មវិធីប្រព័ន្ធ BSP (Board Support Package) សម្រាប់ក្រុមហ៊ុនទូទាំងពិភពលោក។ <span class=\"more-content\"> ដូចជា ASUS, Samsung Electronics, Samsung Semiconductor, LG Automotive និង Hyundai ។ យើងបានគាំទ្រកម្មវិធីផ្សេងៗ រួមទាំងស្មាតហ្វូន ប្រអប់ដំឡើង ឧបករណ៍ពហុព័ត៌មាន ប្រព័ន្ធរថយន្ត ថេប្លេត ដ្រូនយោធា ប្រព័ន្ធសុវត្ថិភាព LiDAR និងច្រើនទៀត។ </span><span class=\"read-more-content\" onclick=\"toggleReadMore(this)\">...read more</span>",
+    "ess": "Embedded Software Solution",
+    "ess_desc": "ក្រុមរបស់យើងមានបទពិសោធន៍ជាង 15 ឆ្នាំក្នុងការបង្កើតកម្មវិធីបង្កប់ និងគម្រោងការរួមបញ្ចូលកម្មវិធីប្រព័ន្ធ BSP (Board Support Package) សម្រាប់ក្រុមហ៊ុនទូទាំងពិភពលោក។ <span class=\"more-content\"> ដូចជា ASUS, Samsung Electronics, Samsung Semiconductor, LG Automotive និង Hyundai ។ យើងបានគាំទ្រកម្មវិធីផ្សេងៗ រួមទាំងស្មាតហ្វូន ប្រអប់ដំឡើង ឧបករណ៍ពហុព័ត៌មាន ប្រព័ន្ធរថយន្ត ថេប្លេត ដ្រូនយោធា ប្រព័ន្ធសុវត្ថិភាព LiDAR និងច្រើនទៀត។ </span><span class=\"read-more-content\" onclick=\"toggleReadMore(this)\">...read more</span>",
 
-    "ai_data_labeling":"AI Data labeling/Annotation",
+    "ai_data_labeling": "AI Data labeling/Annotation",
     "ai_data_labeling_desc": "យើងផ្តល់ជូននូវសំណុំទិន្នន័យលទ្ធផលដែលមានគុណភាពខ្ពស់ស្របតាមកម្មវិធី AI ជាក់លាក់ បំពេញតាមកាលវិភាគផលិតកម្មដើម្បីបំពេញតម្រូវការអតិថិជន",
 
-    "sos":"Software Outsourcing Services",
-    "sos_desc":"ក្រុមជំនួយផ្នែកបច្ចេកទេសរបស់យើង ដែលជំរុញដោយចំណង់ចំណូលចិត្តចំពោះបច្ចេកវិទ្យា មានជំនាញក្នុងការអភិវឌ្ឍឧបករណ៍សាកល្បងកម្មវិធីដោយស្វ័យប្រវត្តិ និងកម្មវិធីកម្មវិធីដែលប្ដូរតាមបំណង រួមទាំងគេហទំព័រ <span class=\"more-content\"> និងដំណោះស្រាយដែលមានមូលដ្ឋានលើកុំព្យូទ័រ។ យើងក៏ផ្តល់ជូននូវសេវាកម្មបណ្តុះបណ្តាលបច្ចេកទេសយ៉ាងទូលំទូលាយ ដើម្បីធានាថាអតិថិជនរបស់យើងត្រូវបានបំពាក់យ៉ាងពេញលេញក្នុងការប្រើប្រាស់ដំណោះស្រាយរបស់យើងប្រកបដោយប្រសិទ្ធភាព។ </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
+    "sos": "Software Outsourcing Services",
+    "sos_desc": "ក្រុមជំនួយផ្នែកបច្ចេកទេសរបស់យើង ដែលជំរុញដោយចំណង់ចំណូលចិត្តចំពោះបច្ចេកវិទ្យា មានជំនាញក្នុងការអភិវឌ្ឍឧបករណ៍សាកល្បងកម្មវិធីដោយស្វ័យប្រវត្តិ និងកម្មវិធីកម្មវិធីដែលប្ដូរតាមបំណង រួមទាំងគេហទំព័រ <span class=\"more-content\"> និងដំណោះស្រាយដែលមានមូលដ្ឋានលើកុំព្យូទ័រ។ យើងក៏ផ្តល់ជូននូវសេវាកម្មបណ្តុះបណ្តាលបច្ចេកទេសយ៉ាងទូលំទូលាយ ដើម្បីធានាថាអតិថិជនរបស់យើងត្រូវបានបំពាក់យ៉ាងពេញលេញក្នុងការប្រើប្រាស់ដំណោះស្រាយរបស់យើងប្រកបដោយប្រសិទ្ធភាព។ </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
 
-    "acts":"Automated Crypto Trading Software",
-    "acts_desc":"វេទិកាជួញដូរទ្រព្យសកម្មឌីជីថលរបស់យើងដំណើរការ 24/7 ។ យើងផ្តល់នូវក្បួនដោះស្រាយព្យាករណ៍ និងលោភលន់ ដែលបង្កឱ្យមានសកម្មភាពទិញទាប និងលក់ខ្ពស់ដោយស្វ័យប្រវត្តិ ដើម្បីបង្កើនការជួញដូរ <span class=\"more-content\"> ប្រាក់ចំណេញជាមួយនឹងដំណោះស្រាយការជួញដូរកម្មវិធីដោយស្វ័យប្រវត្តិរបស់យើង។ វេទិការបស់យើងត្រូវបានរចនាឡើងដើម្បីឱ្យងាយស្រួលប្រើ ដែលអនុញ្ញាតឱ្យពាណិជ្ជករនៃកម្រិតបទពិសោធន៍ទាំងអស់ទទួលបានអត្ថប្រយោជន៍ពីយុទ្ធសាស្រ្តស្វ័យប្រវត្តិដោយមិនត្រូវការចំណេះដឹងផ្នែកពាណិជ្ជកម្មទូលំទូលាយ។ </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
+    "acts": "Automated Crypto Trading Software",
+    "acts_desc": "វេទិកាជួញដូរទ្រព្យសកម្មឌីជីថលរបស់យើងដំណើរការ 24/7 ។ យើងផ្តល់នូវក្បួនដោះស្រាយព្យាករណ៍ និងលោភលន់ ដែលបង្កឱ្យមានសកម្មភាពទិញទាប និងលក់ខ្ពស់ដោយស្វ័យប្រវត្តិ ដើម្បីបង្កើនការជួញដូរ <span class=\"more-content\"> ប្រាក់ចំណេញជាមួយនឹងដំណោះស្រាយការជួញដូរកម្មវិធីដោយស្វ័យប្រវត្តិរបស់យើង។ វេទិការបស់យើងត្រូវបានរចនាឡើងដើម្បីឱ្យងាយស្រួលប្រើ ដែលអនុញ្ញាតឱ្យពាណិជ្ជករនៃកម្រិតបទពិសោធន៍ទាំងអស់ទទួលបានអត្ថប្រយោជន៍ពីយុទ្ធសាស្រ្តស្វ័យប្រវត្តិដោយមិនត្រូវការចំណេះដឹងផ្នែកពាណិជ្ជកម្មទូលំទូលាយ។ </span> <span class=\"read-more-content\" onclick=\"toggleReadMore(this)\" >...read more</span >",
 
-    "events":"ព្រឹត្តិការណ៍ <br /> <span><h4>(អតិថិជន & ដំណោះស្រាយដៃគូ)</h4></span>",
-    "events_desc":"ដំណោះស្រាយតាមបំណងដើម្បីផ្តល់សិទ្ធិអំណាចដល់អតិថិជន និងដៃគូសម្រាប់ការរីកចម្រើន និងភាពជោគជ័យរួមគ្នា",
-    "events_1":"ផ្តល់ការបណ្តុះបណ្តាលស្តីពី AI Data Labelling នៅ MPTC ដល់មន្រ្តីដោយសហការជាមួយ DGCC និង testworks (2024, កម្ពុជា)។",
-    "events_2":"ជំនួបដំបូងជាមួយភ្នាក់ងារពីសមាគមអតីតយុទ្ធជនកូរ៉េ ស្វែងរកការគាំទ្រសម្រាប់សហគ្រាសធុនតូច និងមធ្យមដែលកំពុងពង្រីកមកកម្ពុជា (2024, កូរ៉េខាងត្បូង)។",
-    "events_3":"ការចាប់ផ្តើមអាជីវកម្មកម្មវិធី AI ពាណិជ្ជកម្មផ្តោតលើសេវាកម្ម Data Annotation។ (2024, កម្ពុជា)។",
-    "events_4":"ដំណើរទស្សនកិច្ចជាផ្លូវការនៅមហាវិទ្យាល័យអប់រំគ្រូបង្រៀនភ្នំពេញ (PTEC) ដើម្បីស្វែងយល់ពីកិច្ចសហការផ្នែកអប់រំ STEM (2023, កូរ៉េខាងត្បូង)។",
-    "events_5":"ការចាប់ផ្តើមគម្រោងកម្មវិធីជួញដូររូបិយប័ណ្ណគ្រីបតូដោយស្វ័យប្រវត្តិជាមួយ SoftPlus Technology Co., LTD (2023, កូរ៉េខាងត្បូង)។",
-    "events_6":"ដំណើរទស្សនកិច្ចជាផ្លូវការនៅក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍ (MISTI) ទាក់ទងនឹងកម្មវិធី KOICA CTS (2023, កម្ពុជា)។",
-    "events_7":"ដំណើរទស្សនកិច្ចផ្លូវការរបស់ដៃគូធុរកិច្ចកូរ៉េ Aicontrol.ai មកកាន់ការិយាល័យរបស់យើងនៅមជ្ឈមណ្ឌល CADT Innovation Center ដោយឈានដល់ការចុះហត្ថលេខាលើអាជីវកម្ម MOU។ (2023, កម្ពុជា)។",
+    "events": "ព្រឹត្តិការណ៍ <br /> <span><h4>(អតិថិជន & ដំណោះស្រាយដៃគូ)</h4></span>",
+    "events_desc": "ដំណោះស្រាយតាមបំណងដើម្បីផ្តល់សិទ្ធិអំណាចដល់អតិថិជន និងដៃគូសម្រាប់ការរីកចម្រើន និងភាពជោគជ័យរួមគ្នា",
+    "events_1": "ផ្តល់ការបណ្តុះបណ្តាលស្តីពី AI Data Labelling នៅ MPTC ដល់មន្រ្តីដោយសហការជាមួយ DGCC និង testworks (2024, កម្ពុជា)។",
+    "events_2": "ជំនួបដំបូងជាមួយភ្នាក់ងារពីសមាគមអតីតយុទ្ធជនកូរ៉េ ស្វែងរកការគាំទ្រសម្រាប់សហគ្រាសធុនតូច និងមធ្យមដែលកំពុងពង្រីកមកកម្ពុជា (2024, កូរ៉េខាងត្បូង)។",
+    "events_3": "ការចាប់ផ្តើមអាជីវកម្មកម្មវិធី AI ពាណិជ្ជកម្មផ្តោតលើសេវាកម្ម Data Annotation។ (2024, កម្ពុជា)។",
+    "events_4": "ដំណើរទស្សនកិច្ចជាផ្លូវការនៅមហាវិទ្យាល័យអប់រំគ្រូបង្រៀនភ្នំពេញ (PTEC) ដើម្បីស្វែងយល់ពីកិច្ចសហការផ្នែកអប់រំ STEM (2023, កូរ៉េខាងត្បូង)។",
+    "events_5": "ការចាប់ផ្តើមគម្រោងកម្មវិធីជួញដូររូបិយប័ណ្ណគ្រីបតូដោយស្វ័យប្រវត្តិជាមួយ SoftPlus Technology Co., LTD (2023, កូរ៉េខាងត្បូង)។",
+    "events_6": "ដំណើរទស្សនកិច្ចជាផ្លូវការនៅក្រសួងឧស្សាហកម្ម វិទ្យាសាស្ត្រ បច្ចេកវិទ្យា និងនវានុវត្តន៍ (MISTI) ទាក់ទងនឹងកម្មវិធី KOICA CTS (2023, កម្ពុជា)។",
+    "events_7": "ដំណើរទស្សនកិច្ចផ្លូវការរបស់ដៃគូធុរកិច្ចកូរ៉េ Aicontrol.ai មកកាន់ការិយាល័យរបស់យើងនៅមជ្ឈមណ្ឌល CADT Innovation Center ដោយឈានដល់ការចុះហត្ថលេខាលើអាជីវកម្ម MOU។ (2023, កម្ពុជា)។",
 
-    "scm_crypto_trading":"SCM & ការជួញដូរ Crypto/Coin",
-    "scm":"<i class=\"bi bi-diagram-3 flex-shrink-0\"></i>ទីប្រឹក្សាការគ្រប់គ្រងខ្សែសង្វាក់ផ្គត់ផ្គង់ (SCM)",
-    "catss":"<i class=\"bi bi-currency-bitcoin flex-shrink-0\"></i> ដំណោះស្រាយកម្មវិធីជួញដូរ Crypto ដោយស្វ័យប្រវត្តិ",
+    "scm_crypto_trading": "SCM & ការជួញដូរ Crypto/Coin",
+    "scm": "<i class=\"bi bi-diagram-3 flex-shrink-0\"></i>ទីប្រឹក្សាការគ្រប់គ្រងខ្សែសង្វាក់ផ្គត់ផ្គង់ (SCM)",
+    "catss": "<i class=\"bi bi-currency-bitcoin flex-shrink-0\"></i> ដំណោះស្រាយកម្មវិធីជួញដូរ Crypto ដោយស្វ័យប្រវត្តិ",
 
-    "stem":"STEM (វិទ្យាសាស្ត្រ, បច្ចេកវិទ្យា, វិស្វករ, គណិតវិទ្យា)",
-    "ecr":"<i class=\"bi bi-robot flex-shrink-0\"></i>ការអប់រំផ្នែកសរសេរកូដមនុស្សយន្ត",
-    "stem_tt":"<i class=\"bi bi-book flex-shrink-0\"></i>ការបណ្តុះបណ្តាលបច្ចេកទេស STEM",
+    "stem": "STEM (វិទ្យាសាស្ត្រ, បច្ចេកវិទ្យា, វិស្វករ, គណិតវិទ្យា)",
+    "ecr": "<i class=\"bi bi-robot flex-shrink-0\"></i>ការអប់រំផ្នែកសរសេរកូដមនុស្សយន្ត",
+    "stem_tt": "<i class=\"bi bi-book flex-shrink-0\"></i>ការបណ្តុះបណ្តាលបច្ចេកទេស STEM",
 
-    "ai_solution_tool":"ដំណោះស្រាយ និងឧបករណ៍ AI",
-    "ai_data_modeling":"<i class=\"bi bi-bar-chart flex-shrink-0\"></i> គំរូទិន្នន័យ AI",
-    "ai_software_app":"<i class=\"bi bi-cpu flex-shrink-0\"></i> កម្មវិធី AI",
-    "ai_data_labeling_annotation":"<i class=\"bi bi-ui-checks-grid flex-shrink-0\"></i> ការដាក់ស្លាកទិន្នន័យ AI (Data Annotation)",
+    "ai_solution_tool": "ដំណោះស្រាយ និងឧបករណ៍ AI",
+    "ai_data_modeling": "<i class=\"bi bi-bar-chart flex-shrink-0\"></i> គំរូទិន្នន័យ AI",
+    "ai_software_app": "<i class=\"bi bi-cpu flex-shrink-0\"></i> កម្មវិធី AI",
+    "ai_data_labeling_annotation": "<i class=\"bi bi-ui-checks-grid flex-shrink-0\"></i> ការដាក់ស្លាកទិន្នន័យ AI (Data Annotation)",
 
     "embedded_software_solutions": "កម្មវិធី Firmware និងការរួមបញ្ចូលប្រព័ន្ធរួមផ្សំដោយខ្លួនឯង",
 
@@ -317,37 +314,37 @@
 
     "faq_title": "សំណួរដែលសួរញឹកញាប់",
 
-    "faq_1":"ហេតុអ្វីបានជាអ្នកគួរពង្រីកអាជីវកម្មរបស់អ្នកនៅក្នុងប្រទេសកម្ពុជា?",
-    "faq_1_answer":"កម្ពុជា​ជា​ប្រទេស​កំពុង​អភិវឌ្ឍន៍​មួយ​នៅ​អាស៊ី​អាគ្នេយ៍​ដែល​មាន​ទីផ្សារ​សក្តានុពល​ខ្ពស់។ វាមានកម្លាំងពលកម្មវ័យក្មេង មានទេពកោសល្យ និងទីផ្សារបើកចំហដែលស្វាគមន៍យ៉ាងសកម្មក្រុមហ៊ុនបរទេស។ ក្នុងប៉ុន្មានឆ្នាំថ្មីៗនេះ រដ្ឋាភិបាលកម្ពុជាបានលើកទឹកចិត្តដល់ការវិនិយោគផ្ទាល់ពីបរទេស (FDI) តាមរយៈគោលនយោបាយគាំទ្រ។",
+    "faq_1": "ហេតុអ្វីបានជាអ្នកគួរពង្រីកអាជីវកម្មរបស់អ្នកនៅក្នុងប្រទេសកម្ពុជា?",
+    "faq_1_answer": "កម្ពុជា​ជា​ប្រទេស​កំពុង​អភិវឌ្ឍន៍​មួយ​នៅ​អាស៊ី​អាគ្នេយ៍​ដែល​មាន​ទីផ្សារ​សក្តានុពល​ខ្ពស់។ វាមានកម្លាំងពលកម្មវ័យក្មេង មានទេពកោសល្យ និងទីផ្សារបើកចំហដែលស្វាគមន៍យ៉ាងសកម្មក្រុមហ៊ុនបរទេស។ ក្នុងប៉ុន្មានឆ្នាំថ្មីៗនេះ រដ្ឋាភិបាលកម្ពុជាបានលើកទឹកចិត្តដល់ការវិនិយោគផ្ទាល់ពីបរទេស (FDI) តាមរយៈគោលនយោបាយគាំទ្រ។",
 
-    "faq_2":"ហេតុអ្វីជ្រើសរើស Chipcosoft ជាដៃគូអាជីវកម្មរបស់អ្នក?",
-    "faq_2_answer":"Chipcosoft គឺជាការចាប់ផ្តើមអាជីវកម្មដ៏មានមហិច្ឆតាជាមួយនឹងក្រុមដែលមានបទពិសោធន៍ជាសាកល ដោយនាំមកនូវជំនាញអន្តរជាតិជាងពីរទសវត្សរ៍ និងការយល់ដឹងអំពីទីផ្សារ។ ក្រុមការងាររបស់យើងមានការខិតខំប្រឹងប្រែង ជំរុញ និងរៀបចំយ៉ាងល្អ ដើម្បីគាំទ្រដល់កំណើនអាជីវកម្មរបស់អ្នក។",
+    "faq_2": "ហេតុអ្វីជ្រើសរើស Chipcosoft ជាដៃគូអាជីវកម្មរបស់អ្នក?",
+    "faq_2_answer": "Chipcosoft គឺជាការចាប់ផ្តើមអាជីវកម្មដ៏មានមហិច្ឆតាជាមួយនឹងក្រុមដែលមានបទពិសោធន៍ជាសាកល ដោយនាំមកនូវជំនាញអន្តរជាតិជាងពីរទសវត្សរ៍ និងការយល់ដឹងអំពីទីផ្សារ។ ក្រុមការងាររបស់យើងមានការខិតខំប្រឹងប្រែង ជំរុញ និងរៀបចំយ៉ាងល្អ ដើម្បីគាំទ្រដល់កំណើនអាជីវកម្មរបស់អ្នក។",
 
-    "faq_3":"តើសេវាកម្ម AI data annotation ប្រភេទណាដែលអ្នកផ្តល់ជូន?",
-    "faq_3_answer":"យើងផ្តល់សេវាកម្មដាក់ស្លាកទិន្នន័យយ៉ាងទូលំទូលាយ រួមទាំងboundary boxes, keypoints និង LiDAR 3D annotation ដែលត្រូវបានកែសម្រួលសម្រាប់កម្មវិធី AI ផ្សេងៗ។ ក្រុមរបស់យើងធានានូវសំណុំទិន្នន័យដែលមានគុណភាពខ្ពស់ ដើម្បីគាំទ្រដល់ការបណ្តុះបណ្តាលគំរូ AI ប្រកបដោយប្រសិទ្ធភាព។",
+    "faq_3": "តើសេវាកម្ម AI data annotation ប្រភេទណាដែលអ្នកផ្តល់ជូន?",
+    "faq_3_answer": "យើងផ្តល់សេវាកម្មដាក់ស្លាកទិន្នន័យយ៉ាងទូលំទូលាយ រួមទាំងboundary boxes, keypoints និង LiDAR 3D annotation ដែលត្រូវបានកែសម្រួលសម្រាប់កម្មវិធី AI ផ្សេងៗ។ ក្រុមរបស់យើងធានានូវសំណុំទិន្នន័យដែលមានគុណភាពខ្ពស់ ដើម្បីគាំទ្រដល់ការបណ្តុះបណ្តាលគំរូ AI ប្រកបដោយប្រសិទ្ធភាព។",
 
-    "faq_4":"តើដំណោះស្រាយកម្មវិធីបង្កប់របស់អ្នកអាចផ្តល់អត្ថប្រយោជន៍ដល់កម្មវិធី IoT និងមនុស្សយន្តយ៉ាងដូចម្តេច?",
-    "faq_4_answer":"ដំណោះស្រាយសូហ្វវែរដែលបានបង្កប់របស់យើងត្រូវបានរចនាឡើងសម្រាប់ការរួមបញ្ចូលដោយគ្មានថ្នេរជាមួយឧបករណ៍បញ្ជាខ្នាតតូច និងបន្ទះសៀគ្វីទំនើប គាំទ្រឧបករណ៍ IoT មនុស្សយន្ត និងកម្មវិធីតាមតម្រូវការផ្សេងទៀតសម្រាប់ដំណើរការល្អប្រសើរ និងភាពជឿជាក់",
+    "faq_4": "តើដំណោះស្រាយកម្មវិធីបង្កប់របស់អ្នកអាចផ្តល់អត្ថប្រយោជន៍ដល់កម្មវិធី IoT និងមនុស្សយន្តយ៉ាងដូចម្តេច?",
+    "faq_4_answer": "ដំណោះស្រាយសូហ្វវែរដែលបានបង្កប់របស់យើងត្រូវបានរចនាឡើងសម្រាប់ការរួមបញ្ចូលដោយគ្មានថ្នេរជាមួយឧបករណ៍បញ្ជាខ្នាតតូច និងបន្ទះសៀគ្វីទំនើប គាំទ្រឧបករណ៍ IoT មនុស្សយន្ត និងកម្មវិធីតាមតម្រូវការផ្សេងទៀតសម្រាប់ដំណើរការល្អប្រសើរ និងភាពជឿជាក់",
 
-    "faq_5":"តើអ្នកផ្តល់ធនធានអ្វីខ្លះសម្រាប់ការអប់រំ STEM ក្នុងផ្នែកមនុស្សយន្ត?",
-    "faq_5_answer":"យើងផ្តល់ឧបករណ៍មនុស្សយន្តអប់រំ STEM ដែលអាចប្រើបានជាមួយកម្មវិធី Scratch និង Arduino រួមជាមួយនឹងកញ្ចប់បណ្តុះបណ្តាលដែលត្រូវបានរចនាឡើងដើម្បីគាំទ្រដល់ថ្នាក់បឋមសិក្សាតាមរយៈកម្មវិធីសិក្សានៅវិទ្យាល័យ ជំរុញការសរសេរកូដជាក់ស្តែង និងជំនាញវិស្វកម្ម។",
+    "faq_5": "តើអ្នកផ្តល់ធនធានអ្វីខ្លះសម្រាប់ការអប់រំ STEM ក្នុងផ្នែកមនុស្សយន្ត?",
+    "faq_5_answer": "យើងផ្តល់ឧបករណ៍មនុស្សយន្តអប់រំ STEM ដែលអាចប្រើបានជាមួយកម្មវិធី Scratch និង Arduino រួមជាមួយនឹងកញ្ចប់បណ្តុះបណ្តាលដែលត្រូវបានរចនាឡើងដើម្បីគាំទ្រដល់ថ្នាក់បឋមសិក្សាតាមរយៈកម្មវិធីសិក្សានៅវិទ្យាល័យ ជំរុញការសរសេរកូដជាក់ស្តែង និងជំនាញវិស្វកម្ម។",
 
-    "faq_6":"តើកម្មវិធីជួញដូរគ្រីបតូស្វ័យប្រវត្តិរបស់អ្នកដំណើរការយ៉ាងដូចម្តេច?",
-    "faq_6_answer":"កម្មវិធីជួញដូរគ្រីបតូរបស់យើងត្រូវបានរចនាឡើងដើម្បីបង្កើនប្រសិទ្ធភាពការសម្រេចចិត្តវិនិយោគតាមរយៈដំណោះស្រាយពាណិជ្ជកម្មដោយស្វ័យប្រវត្តិ ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើនសក្តានុពលវិនិយោគរបស់ពួកគេជាមួយនឹងក្បួនដោះស្រាយឆ្លាតវៃ និងការវិភាគទិន្នន័យតាមពេលវេលាជាក់ស្តែង។",
+    "faq_6": "តើកម្មវិធីជួញដូរគ្រីបតូស្វ័យប្រវត្តិរបស់អ្នកដំណើរការយ៉ាងដូចម្តេច?",
+    "faq_6_answer": "កម្មវិធីជួញដូរគ្រីបតូរបស់យើងត្រូវបានរចនាឡើងដើម្បីបង្កើនប្រសិទ្ធភាពការសម្រេចចិត្តវិនិយោគតាមរយៈដំណោះស្រាយពាណិជ្ជកម្មដោយស្វ័យប្រវត្តិ ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើនសក្តានុពលវិនិយោគរបស់ពួកគេជាមួយនឹងក្បួនដោះស្រាយឆ្លាតវៃ និងការវិភាគទិន្នន័យតាមពេលវេលាជាក់ស្តែង។",
 
-    "faq_7":"តើជម្រើសជំនួយអ្វីខ្លះដែលអាចរកបានសម្រាប់ការដោះស្រាយបញ្ហា និងការរួមបញ្ចូលដំណោះស្រាយរបស់អ្នក?",
-    "faq_7_answer":"យើងផ្តល់ការគាំទ្រយ៉ាងទូលំទូលាយសម្រាប់ការដោះស្រាយបញ្ហា ការអភិវឌ្ឍន៍គម្រោង និងការណែនាំអំពីការរួមបញ្ចូលដំណោះស្រាយរបស់យើងទៅក្នុងប្រព័ន្ធរបស់អ្នក។ ក្រុមរបស់យើងគឺអាចរកបានដើម្បីជួយអតិថិជន និងដៃគូក្នុងការសម្រេចបាននូវការអនុវត្តដោយគ្មានថ្នេរ។",
+    "faq_7": "តើជម្រើសជំនួយអ្វីខ្លះដែលអាចរកបានសម្រាប់ការដោះស្រាយបញ្ហា និងការរួមបញ្ចូលដំណោះស្រាយរបស់អ្នក?",
+    "faq_7_answer": "យើងផ្តល់ការគាំទ្រយ៉ាងទូលំទូលាយសម្រាប់ការដោះស្រាយបញ្ហា ការអភិវឌ្ឍន៍គម្រោង និងការណែនាំអំពីការរួមបញ្ចូលដំណោះស្រាយរបស់យើងទៅក្នុងប្រព័ន្ធរបស់អ្នក។ ក្រុមរបស់យើងគឺអាចរកបានដើម្បីជួយអតិថិជន និងដៃគូក្នុងការសម្រេចបាននូវការអនុវត្តដោយគ្មានថ្នេរ។",
 
-    "contact":"ទំនាក់ទំនង",
+    "contact": "ទំនាក់ទំនង",
 
     "contact_info": "យើងក៏ចង់ដឹងពីអ្នក! ទោះជាអ្នកមានសំណួរ, ត្រូវការជំនួយ, ឬចង់សម្ភាសន៍គម្រោង, សូមទំនាក់ទំនងមកយើង។",
 
-    "address":"អាស័យដ្ឋាន",
+    "address": "អាស័យដ្ឋាន",
     "address_info": "CADT University - Innovation Center SEED, 3F, 2nd Bridge Prek Leap, National Road 6, Phnom Penh, Cambodia",
 
     "call_us": "ទាក់ទងតាមរយៈ",
 
-    "contact_information":"ព័ត៌មានទំនាក់ទំនង",
+    "contact_information": "ព័ត៌មានទំនាក់ទំនង",
 
     "phone_cambodia": "<b>កម្ពុជា:</b> (+855) 95951517",
 
@@ -369,5 +366,5 @@
     "linkedin": "LinkedIn",
 
     "copyright": "© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Chipcosoft ឆ្នាំ​២០២៣"
-}
+  }
 }
